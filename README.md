@@ -3,7 +3,7 @@ Morrowind Better Install Order
 
 * Version: 0.1
 * Copyright 2015 Mehdi Yousfi-Monod
-* License: GPL v3 (see the file: COPYING.txt)
+* License: GPL v3 (see the file COPYING)
 
 What the tool does
 ------------------
@@ -34,14 +34,14 @@ It looks for conflicting data files, then shows you a graphical view of the conf
 Every possible pair of packages are compared according to 3 "objective" criteria in order to decide which one shall override the other.
 
 The 3 "objective" criteria I've found are:
-1. Size of data files
-2. Data files count
-3. Timestamp of data files
+- Size of data files
+- Data files count
+- Timestamp of data files
 
 The hypotheses behind the tool is we can hope that, in general, statistically:
-1. The larger the data files, the better the quality (textures, meshes, sounds...).
-2. The less files a mod has the more specialized it should be. I mean, big packs with lots of files like the Visual Pack, Connary's or Darknut's little weapons should have a lower score than smaller graphic replacement mods (eg. Umbra replacement) to allow the latter ones to override the data files of the former ones.
-3. The more recent a mod is, the more actual / updated / improved it should be compared to an older mod.
+- The larger the data files, the better the quality (textures, meshes, sounds...).
+- The less files a mod has the more specialized it should be. I mean, big packs with lots of files like the Visual Pack, Connary's or Darknut's little weapons should have a lower score than smaller graphic replacement mods (eg. Umbra replacement) to allow the latter ones to override the data files of the former ones.
+- The more recent a mod is, the more actual / updated / improved it should be compared to an older mod.
 
 These criteria are computed for each pair of data files for each mod archive and then a final score is given for each pair of mods. The scores are used to build a mod install precedence graph, which is then linearized to get the final ordered list of mods.
 
