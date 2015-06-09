@@ -71,5 +71,5 @@ Examples can be found in the bio.ini file.
 Finishing
 ---------
 
-Once your satisfied with the precedence graph, you can let the tool copy and rename my mods to the Installers directory.
+Once you are satisfied with the precedence graph, you can let the tool copy and rename your mods into the Installers directory.
 
