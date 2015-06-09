@@ -1,0 +1,1620 @@
+*** Graph of Mod Install Precedence ***
+
+Each mod name is a node.
+Edge directions are from unindented lines to indented ones:
+
+mod1.7z
+    mod2.7z
+
+means mod1 should overwrite files of mod2.
+
+Sizes of overlapping files:
+    FS1 = File Size from mod1
+    FS2 = File Size from mod2
+Values comparing mod1 and mod2:
+    NSR = Normalized Size Ratio of overlapping files
+    NTR = Normalized modification Time Ratio of overlapping files
+    FCR = File Count Ratio of all files
+    Score = NS * FCR
+Values based on the whole mod:
+    FC = File Count
+    Size = Total (uncompressed) Size of the mod
+
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Antares' Undead Creatures.7z                                                                                        27    2M
+    Antares' Dungeon & Diamond.7z                                                    1.33  0.94    1.71     2.02   116    7M
+        sound\un\un_skeletonarisesound.wav                                499K 252K
+Neoptolemus' The Undead 4.0.7z                                                                                     628  168M
+    Darknut's Armor Textures Divine Domina 512.7z                                    1.78  1.00    0.66     1.05   203   32M
+        textures\jer_ad_nordic_boot.dds                                     1M 349K
+        textures\jer_ad_nordic_ring_poldron-01.dds                        349K  87K
+        textures\jer_ad_nordic_ring_poldron-02.dds                        349K  87K
+        textures\jer_ad_nordicring_kn.dds                                   1M 349K
+        textures\jer_ad_nordri_boot.dds                                     1M 349K
+        textures\jer_ad_nori_gauntlet_hand.dds                            349K  87K
+        textures\jer_ad_nori_gauntlet_wrst.dds                            699K 174K
+        textures\jer_ad_nrg_m.dds                                         699K 174K
+        textures\jer_ad_nrul.dds                                          699K 174K
+abot's Where Are All Birds Going 1.17.7z                                                                           230   20M
+    abot's Water Life 1.21.7z                                                        1.00  1.10    1.60     1.77   829   54M
+        textures\nom_birdmeat.dds                                         174K 174K
+        textures\tx_feather_sa.dds                                          2K   2K
+Slartibartfast's Poorly Placed Object Fix 1.2.7z                                                                     6   97K
+    Lougian's Hlaalu Bump mapped 2.0.7z                                              0.89  0.92    3.52     2.94   184  123M
+        meshes\i\in_hlaalu_wall_square.nif                                  1K   2K
+Antares' Animated Morrowind I and II.7z                                                                            118   21M
+    Kalamestari_69's Welcome to the Arena 6.6!.7z                                    0.99  1.07    1.29     1.38   238   50M
+        meshes\am\xam_alchemist.nif                                        39K  41K
+        meshes\am\xam_reader1.nif                                          68K  70K
+        meshes\am\xam_smith.nif                                            68K  70K
+        meshes\am\xam_writer02.nif                                         39K  41K
+emma's Children of Morrowind.7z                                                                                   3767  257M
+    Motoki & co's Better Heads 2.0.7z                                                1.50  1.54    0.55     1.17   724   25M
+        textures\fp4a.dds                                                  87K  32K
+Danae's Hold it 1.9.7z                                                                                             259   24M
+    abot's Water Life 1.21.7z                                                        1.00  0.99    1.53     1.52   829   54M
+        textures\bar_fish01.dds                                             5K   5K
+Kalamestari_69's Welcome to the Arena 6.6!.7z                                                                      238   50M
+    Neoptolemus' The Undead 4.0.7z                                                   1.13  1.87    1.43     2.94   628  168M
+        textures\fp5m.dds                                                  43K  32K
+    emma's Children of Morrowind.7z                                                  1.13  1.21    2.76     3.67  3767  257M
+        textures\bh\bh_fp_khan_br.dds                                      43K  32K
+        textures\bh\bh_fp_no_f_hair_05.dds                                 43K  32K
+        textures\fp5a.dds                                                  43K  32K
+    Motoki & co's Better Heads 2.0.7z                                                1.13  1.87    1.51     3.09   724   25M
+        textures\bh\bh_ds_de_m_hair24w.dds                                 43K  32K
+        textures\bh\bh_dsbg_br_m_old_hair01.dds                            87K  65K
+        textures\bh\bh_fp_no_m_hair_03b.dds                               174K 131K
+        textures\fp1m.dds                                                  43K  32K
+        textures\fp4m.dds                                                  43K  32K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+emma's Prophecy Of The Lost Heir 1.2.7z                                                                             33    2M
+    emma's Children of Morrowind.7z                                                  1.50  0.57    5.71     4.47  3767  257M
+        textures\fp5a.dds                                                  87K  32K
+    Kalamestari_69's Welcome to the Arena 6.6!.7z                                    1.33  0.47    2.07     1.22   238   50M
+        textures\fp5a.dds                                                  87K  43K
+AOF's Hlaalu Textures.7z                                                                                            11    5M
+    Lougian's Hlaalu Bump mapped 2.0.7z                                              0.46  0.86    2.82     1.32   184  123M
+        textures\tx_hlaalu_ceiling.dds                                    688K   1M
+        textures\tx_hlaalu_ceiling_01.dds                                 344K 699K
+        textures\tx_hlaalu_hallt_wall.dds                                 688K   5M
+        textures\tx_hlaalu_sideedge_01.dds                                 86K 699K
+        textures\tx_hlaalu_topedge_01.dds                                  86K 699K
+        textures\tx_hlaalu_topedge_02.dds                                  86K 699K
+        textures\tx_hlaalu_wall2_01.dds                                   688K   5M
+        textures\tx_hlaalu_wall2_02.dds                                   688K   5M
+        textures\tx_hlaalu_wall2_03.dds                                   688K   5M
+        textures\tx_stone_hlaalu_floor.dds                                688K   5M
+        textures\tx_stone_hlaalu_floor_01.dds                             344K   2M
+    Connary's Textures Pack Full.7z                                                  0.89  1.08    5.45     5.37  1111  322M
+        textures\tx_hlaalu_ceiling.dds                                    688K 699K
+        textures\tx_hlaalu_ceiling_01.dds                                 344K 174K
+        textures\tx_hlaalu_hallt_wall.dds                                 688K 699K
+        textures\tx_hlaalu_sideedge_01.dds                                 86K 174K
+        textures\tx_hlaalu_topedge_01.dds                                  86K 174K
+        textures\tx_hlaalu_topedge_02.dds                                  86K 349K
+        textures\tx_hlaalu_wall2_01.dds                                   688K   1M
+        textures\tx_hlaalu_wall2_02.dds                                   688K 699K
+        textures\tx_hlaalu_wall2_03.dds                                   688K 699K
+        textures\tx_stone_hlaalu_floor.dds                                688K 699K
+        textures\tx_stone_hlaalu_floor_01.dds                             344K 349K
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.13  1.33    4.95    73.03   854  242M
+        textures\tx_hlaalu_ceiling.dds                                    688K 699K
+        textures\tx_hlaalu_ceiling_01.dds                                 344K  43K
+        textures\tx_hlaalu_hallt_wall.dds                                 688K 699K
+        textures\tx_hlaalu_sideedge_01.dds                                 86K  87K
+        textures\tx_hlaalu_topedge_01.dds                                  86K 174K
+        textures\tx_hlaalu_topedge_02.dds                                  86K 174K
+        textures\tx_hlaalu_wall2_01.dds                                   688K 699K
+        textures\tx_hlaalu_wall2_02.dds                                   688K 699K
+        textures\tx_hlaalu_wall2_03.dds                                   688K 699K
+        textures\tx_stone_hlaalu_floor.dds                                688K 174K
+        textures\tx_stone_hlaalu_floor_01.dds                             344K  87K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+AOF's Imperial Housing 2.0 & Elmer's Bump Mapped 1.2.7z                                                            142   68M
+    Darknut's Little Weapons Mod 512.7z                                              1.77  1.11    1.35     2.37   324   17M
+        textures\tx_metal_strip_01.dds                                     43K  11K
+        textures\tx_metal_strip_02.dds                                     43K  11K
+    Connary's Textures Pack Full.7z                                                  1.28  1.13    2.13     2.95  1111  322M
+        textures\tx_brickedge_left_01.dds                                  87K  87K
+        textures\tx_brickedge_right_01.dds                                 87K  87K
+        textures\tx_bricksingle_01.dds                                     11K   2K
+        textures\tx_common_door_02.dds                                    349K 349K
+        textures\tx_doorbricks_01.dds                                     349K  87K
+        textures\tx_roofedge_01.dds                                        87K  22K
+        textures\tx_rooftop_01.dds                                        174K  22K
+        textures\tx_shingles_01.dds                                       698K 699K
+        textures\tx_stone _left_01.dds                                     87K  87K
+        textures\tx_stone _mid_01.dds                                     174K 174K
+        textures\tx_stone _right_01.dds                                    87K  87K
+        textures\tx_stone_plain_01.dds                                    698K  43K
+        textures\tx_stucco_imp_01.dds                                     349K 699K
+        textures\tx_stucco_imp_02.dds                                     698K 699K
+        textures\tx_wall_brick_imp_01.dds                                 698K 699K
+        textures\tx_wall_stone_01.dds                                     698K 699K
+        textures\tx_wall_stone_02.dds                                     698K 174K
+        textures\tx_wall_workedstone_washed_01.dds                          1M 174K
+        textures\tx_window_diamond_01.dds                                  87K  87K
+        textures\tx_wood_baseboard.dds                                    163K  43K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.32  1.34    1.93    32.51   854  242M
+        textures\tx_brickedge_left_01.dds                                  87K  21K
+        textures\tx_brickedge_right_01.dds                                 87K  21K
+        textures\tx_carvedwood_beam_01.dds                                 41K  87K
+        textures\tx_carvedwood_detail_knots.dds                           163K  21K
+        textures\tx_common_door.dds                                       349K 349K
+        textures\tx_common_door_02.dds                                    349K 349K
+        textures\tx_common_stone_floor.dds                                  1M 174K
+        textures\tx_common_stone_pillar.dds                               327K 174K
+        textures\tx_hinge_01.dds                                           11K  11K
+        textures\tx_hinge_02.dds                                           11K  11K
+        textures\tx_imp_archdoor.dds                                      688K  87K
+        textures\tx_metal_strip_01.dds                                     43K  43K
+        textures\tx_metal_strip_02.dds                                     43K  43K
+        textures\tx_roofedge_01.dds                                        87K  21K
+        textures\tx_rooftop_01.dds                                        174K  21K
+        textures\tx_shingles_01.dds                                       698K 172K
+        textures\tx_stone _left_01.dds                                     87K  87K
+        textures\tx_stone _mid_01.dds                                     174K  87K
+        textures\tx_stone _right_01.dds                                    87K  87K
+        textures\tx_stone_plain_01.dds                                    698K 699K
+        [...]
+    Slartibartfast's Mesh Fix 1.2.7z                                                 1.04  1.02    0.95     1.00   124    4M
+        meshes\x\ex_common_skywalk_01.nif                                  25K  23K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+AOF's Shacks and Docks.7z                                                                                           10    3M
+    Connary's Textures Pack Full.7z                                                  1.10  1.12    5.65     6.83  1111  322M
+        textures\tx_shack_foundation.dds                                  174K 174K
+        textures\tx_wood_docks_01.dds                                     349K 349K
+        textures\tx_wood_shack_door.dds                                   349K 349K
+        textures\tx_wood_siding.dds                                       698K 174K
+        textures\tx_wood_siding_01.dds                                    698K 174K
+        textures\tx_wood_wethered.dds                                     174K 699K
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.38  1.35    5.13    89.23   854  242M
+        textures\tx_shack_thatch.dds                                      698K 174K
+        textures\tx_shack_thatch_strip.dds                                349K  87K
+        textures\tx_wood_barnacle_01.dds                                  174K 174K
+        textures\tx_wood_barnacle_02.dds                                  174K 174K
+        textures\tx_wood_docks_01.dds                                     349K 349K
+        textures\tx_wood_shack_door.dds                                   349K  87K
+        textures\tx_wood_siding.dds                                       698K 174K
+        textures\tx_wood_siding_01.dds                                    698K 174K
+        textures\tx_wood_wethered.dds                                     174K 174K
+AOF's Vivec Velothi Retextured 3.2 & Biont's Vivec Bump Maps 1.0.7z                                                264   55M
+    Connary's Textures Pack Full.7z                                                  1.03  1.11    1.70     1.93  1111  322M
+        textures\tx_block_adobe_brown_02.dds                              174K 174K
+        textures\tx_block_adobe_redbrown_01.dds                           699K   1M
+        textures\tx_border_adobe_brown_01.dds                              43K 174K
+        textures\tx_border_adobe_darkbrown_01.dds                          43K 174K
+        textures\tx_glass_amber_02.dds                                     21K  43K
+        textures\tx_v_b_base_01.dds                                       174K   1M
+        textures\tx_v_base_01.dds                                         349K 699K
+        textures\tx_v_base_02.dds                                           1M 349K
+        textures\tx_v_base_04.dds                                         174K 699K
+        textures\tx_v_base_05.dds                                         174K 699K
+        textures\tx_v_base_07.dds                                         699K 699K
+        textures\tx_v_base_08.dds                                         699K 699K
+        textures\tx_v_base_09.dds                                         349K 349K
+        textures\tx_v_base_10.dds                                           1M 349K
+        textures\tx_v_bridgedetail_01.dds                                 699K 174K
+        textures\tx_v_bridgedetail_02.dds                                  43K  87K
+        textures\tx_v_bridgedetail_03.dds                                  21K  43K
+        textures\tx_v_bridgedetail_04.dds                                 349K  87K
+        textures\tx_v_edge_01.dds                                           5K   5K
+        textures\tx_v_entcover_01.dds                                     699K 699K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.02  1.37    1.54    21.42   854  242M
+        textures\tx_block_adobe_brown_02.dds                              174K  43K
+        textures\tx_block_adobe_redbrown_01.dds                           699K  43K
+        textures\tx_border_adobe_brown_01.dds                              43K 174K
+        textures\tx_border_adobe_darkbrown_01.dds                          43K 174K
+        textures\tx_glass_amber_02.dds                                     21K  43K
+        textures\tx_v_b_base_01.dds                                       174K 699K
+        textures\tx_v_base_01.dds                                         349K 699K
+        textures\tx_v_base_02.dds                                           1M 349K
+        textures\tx_v_base_04.dds                                         174K 699K
+        textures\tx_v_base_05.dds                                         174K 174K
+        textures\tx_v_base_07.dds                                         699K 699K
+        textures\tx_v_base_08.dds                                         699K 699K
+        textures\tx_v_base_09.dds                                         349K 349K
+        textures\tx_v_base_10.dds                                           1M 349K
+        textures\tx_v_bridgedetail_01.dds                                 699K 174K
+        textures\tx_v_bridgedetail_02.dds                                  43K 174K
+        textures\tx_v_bridgedetail_03.dds                                  21K  87K
+        textures\tx_v_bridgedetail_04.dds                                 349K 174K
+        textures\tx_v_floor_01.dds                                        699K 699K
+        textures\tx_v_p_floor_02.dds                                      174K 174K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Alaisiagae's Propylon Pillar Retexture 1.1.7z                                                                       13    1M
+    Bethesda's Master Index & DeusXMachina's Journalfix.7z                           1.78 10.00    0.75    11.95     6   86K
+        textures\tx_index_master_01.tga                                    98K  24K
+Biont's Telvanni Bump Maps 1.1.7z                                                                                  106   22M
+    Connary's Textures Pack Full.7z                                                  1.23  1.25    2.37     3.49  1111  322M
+        textures\tx_bark_01.dds                                           699K 174K
+        textures\tx_bark_02.dds                                           699K 174K
+        textures\tx_emperor_parasol_01.dds                                524K 699K
+        textures\tx_emperor_parasol_02.dds                                174K 174K
+        textures\tx_emperor_parasol_03.dds                                174K  43K
+        textures\tx_telv_bark_01.dds                                      699K 699K
+        textures\tx_telv_podwalls.dds                                     524K 699K
+        textures\tx_telv_roof01.dds                                       699K 174K
+        textures\tx_telv_sphere.dds                                       699K 174K
+        textures\tx_telv_wood01.dds                                       699K 699K
+        textures\tx_telv_wood02.dds                                       699K 699K
+        textures\tx_telv_wood03.dds                                       699K 699K
+        textures\tx_telv_wood04.dds                                       699K 699K
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.40  1.50    2.15    42.28   854  242M
+        textures\tx_bark_01.dds                                           699K 174K
+        textures\tx_bark_02.dds                                           699K 699K
+        textures\tx_emperor_parasol_01.dds                                524K 699K
+        textures\tx_emperor_parasol_02.dds                                174K 174K
+        textures\tx_emperor_parasol_03.dds                                174K 174K
+        textures\tx_telv_wood01.dds                                       699K 174K
+        textures\tx_telv_wood02.dds                                       699K 174K
+        textures\tx_telv_wood03.dds                                       699K 174K
+        textures\tx_telv_wood04.dds                                       699K 174K
+        textures\tx_wood.dds                                              699K 174K
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              1.29  1.16    1.15     1.63   156  144M
+        meshes\f\flora_emp_parasol_01.nif                                  87K  22K
+        meshes\f\flora_emp_parasol_02.nif                                 126K  29K
+        meshes\f\flora_emp_parasol_03.nif                                 106K  25K
+        textures\tx_bark_01.dds                                           699K 174K
+        textures\tx_emperor_parasol_01.dds                                524K   5M
+        textures\tx_emperor_parasol_03.dds                                174K 262K
+        textures\tx_wood.dds                                              699K 174K
+    Slartibartfast's Mesh Fix 1.2.7z                                                 1.51  1.02    1.06     1.51   124    4M
+        meshes\x\ex_t_gateway_great.nif                                   166K  38K
+        meshes\x\ex_t_manor_01.nif                                         40K  39K
+        meshes\x\ex_t_platform_01.nif                                      11K   6K
+        meshes\x\ex_t_pole_hooked.nif                                      28K   7K
+        meshes\x\ex_t_root_hook.nif                                        26K  12K
+        meshes\x\ex_t_root_lendsplit.nif                                   38K  12K
+        meshes\x\ex_t_root_spikes_01.nif                                   38K  14K
+        meshes\x\ex_t_root_spikes_02.nif                                    9K  10K
+        meshes\x\ex_t_root_stem.nif                                        41K  11K
+        meshes\x\ex_t_slavemarket.nif                                     193K  39K
+        meshes\x\ex_t_stair_90_l_short.nif                                 84K  20K
+        meshes\x\ex_t_stair_90_r_short.nif                                 84K  20K
+        meshes\x\ex_t_stair_lcurve.nif                                     35K  34K
+        meshes\x\ex_t_stair_rcurve.nif                                     35K  34K
+        meshes\x\ex_t_stair_spiral.nif                                    235K  81K
+        textures\tx_bark_01.dds                                           699K  43K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Colt17's HD Architecture Meshes.7z                                                                                  25   12M
+    Lougian's Redoran Bump Mapped 2.0.7z                                             0.98  0.93    2.24     2.05   224  154M
+        meshes\x\ex_redoran_barracks_01.nif                               196K 209K
+        meshes\x\ex_redoran_building_01.nif                               389K 417K
+        meshes\x\ex_redoran_building_02.nif                               257K 287K
+        meshes\x\ex_redoran_building_03.nif                               162K 175K
+        meshes\x\ex_redoran_hut_01.nif                                    173K 181K
+        meshes\x\ex_redoran_hut_02.nif                                    173K 181K
+        meshes\x\ex_redoran_steps_01.nif                                  206K 207K
+        meshes\x\ex_redoran_steps_02.nif                                  207K 209K
+        meshes\x\ex_redoran_striderport_01.nif                            208K 224K
+        meshes\x\ex_redoran_tavern_01.nif                                 357K 379K
+        meshes\x\ex_redoran_tower_01.nif                                  362K 371K
+        meshes\x\ex_redoran_window_01.nif                                  85K  87K
+        meshes\x\ex_redoran_window_02.nif                                  85K  87K
+        meshes\x\ex_redwall_post_01.nif                                    28K  29K
+    Max & co's Windows Glow (+WindowLights+abot+Gemini).7z                           1.99  1.61    2.15     6.00   200   23M
+        meshes\wglow\35.nif                                               370K 114K
+        meshes\wglow\ex_redoran_window_01.nif                              88K  14K
+        meshes\wglow\ex_redoran_window_02.nif                              90K  15K
+        meshes\wglow\ex_redoran_window_02a.nif                             88K  14K
+Lougian's Daedric Ruins Bump Mapped 1.0.7z                                                                         113  156M
+    Connary's Textures Pack Full.7z                                                  1.20  1.29    2.32     3.47  1111  322M
+        meshes\d\in_dae_door_01.nif                                        50K  51K
+        meshes\i\in_dae_doorjamb_01.nif                                    43K  45K
+        meshes\i\in_dae_hall_l_01.nif                                     101K 107K
+        meshes\i\in_dae_hall_l_02.nif                                      65K  72K
+        meshes\i\in_dae_hall_l_03.nif                                      66K  73K
+        meshes\i\in_dae_hall_l_3way_01.nif                                 99K 101K
+        meshes\i\in_dae_hall_l_corner.nif                                  86K  85K
+        meshes\i\in_dae_hall_l_endcap_01.nif                               78K  82K
+        meshes\i\in_dae_hall_l_entry_01.nif                                84K  86K
+        meshes\i\in_dae_hall_l_staircurve1.nif                            102K 106K
+        meshes\i\in_dae_hall_l_staircurve2.nif                            102K 106K
+        meshes\i\in_dae_hall_l_stairs_01.nif                              114K 119K
+        meshes\i\in_dae_hall_ruin_l_01.nif                                 93K  97K
+        meshes\i\in_dae_hall_ruin_l_02.nif                                103K 107K
+        meshes\i\in_dae_mezzanine_edge.nif                                 33K  52K
+        meshes\i\in_dae_platform_stairs.nif                                11K  10K
+        meshes\i\in_dae_room_l_corner_01.nif                              100K 109K
+        meshes\i\in_dae_room_l_corner_02.nif                               77K  76K
+        meshes\i\in_dae_room_l_cornerout_01.nif                            63K  62K
+        meshes\i\in_dae_room_l_roof_01.nif                                 46K  47K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  2.89  1.55    2.10    75.95   854  242M
+        textures\tx_cavern_lavawall00.dds                                   5M 699K
+        textures\tx_dae_floor_01.dds                                        5M 174K
+        textures\tx_daed_door_01.dds                                        5M 699K
+        textures\tx_daed_edge_01.dds                                      349K  43K
+        textures\tx_daed_metal_01.dds                                       5M 174K
+        textures\tx_daed_metal_02.dds                                       5M 174K
+        textures\tx_daed_metal_03.dds                                       2M  87K
+        textures\tx_daed_stone_02.dds                                       5M 699K
+        textures\tx_daed_wall_01.dds                                        5M 699K
+        textures\tx_daed_wall_02.dds                                        5M 699K
+        textures\tx_daed_wall_03.dds                                        5M 699K
+        textures\tx_daed_wall_04.dds                                        5M 699K
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              1.00  1.10    1.13     1.25   156  144M
+        meshes\x\ex_dae_ruin_02.nif                                        73K  73K
+        meshes\x\ex_dae_ruin_02_skew.nif                                   73K  73K
+        meshes\x\ex_dae_ruin_04.nif                                        98K  96K
+        meshes\x\ex_dae_ruin_04_skew_01.nif                               169K 167K
+        meshes\x\ex_dae_ruin_04_skew_02.nif                               161K 158K
+        meshes\x\ex_dae_ruin_entry.max.nif                                108K 104K
+        meshes\x\ex_dae_ruin_platform_01.nif                                8K   8K
+    Slartibartfast's Mesh Fix 1.2.7z                                                 1.02  1.09    1.03     1.14   124    4M
+        meshes\x\ex_dae_ruin_04.nif                                        98K  95K
+        meshes\x\ex_daed_pillar_claw_01.nif                                 9K   9K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Lougian's Hlaalu Bump mapped 2.0.7z                                                                                184  123M
+    AOF's Shacks and Docks.7z                                                        4.25  1.15    0.34     1.25    10    3M
+        textures\tx_wood_wethered.dds                                       5M 174K
+    AOF's Vivec Velothi Retextured 3.2 & Biont's Vivec Bump Maps 1.0.7z              5.66  1.13    1.14     5.16   264   55M
+        textures\tx_glass_amber_02.dds                                      1M  21K
+    Max & co's Windows Glow (+WindowLights+abot+Gemini).7z                           1.78  1.07    1.03     1.75   200   23M
+        textures\tx_glass_amber_02.dds                                      1M 349K
+    Armed Defender's Mesh Improvements 1.7.1.7z                                      1.01  1.13    0.99     1.12   177   27M
+        meshes\i\in_hlaalu_platform_01.nif                                160K 159K
+        meshes\i\in_hlaalu_platform_02.nif                                 64K  63K
+    Connary's Textures Pack Full.7z                                                  1.89  1.25    1.94     4.02  1111  322M
+        meshes\d\hlaalu_loaddoor_ 01.nif                                   14K  13K
+        meshes\d\hlaalu_loaddoor_ 02.nif                                   12K  10K
+        meshes\d\in_hlaalu_door.nif                                        32K  29K
+        meshes\x\ex_hlaalu_win_01.nif                                      11K   9K
+        textures\tx_glass_amber_02.dds                                      1M  43K
+        textures\tx_hlaalu_ceiling.dds                                      1M 699K
+        textures\tx_hlaalu_ceiling_01.dds                                 699K 174K
+        textures\tx_hlaalu_door_01.dds                                      2M 349K
+        textures\tx_hlaalu_door_02.dds                                      2M 349K
+        textures\tx_hlaalu_doorplank_01.dds                               349K  43K
+        textures\tx_hlaalu_hallt_wall.dds                                   5M 699K
+        textures\tx_hlaalu_sideedge_01.dds                                699K 174K
+        textures\tx_hlaalu_topedge_01.dds                                 699K 174K
+        textures\tx_hlaalu_topedge_02.dds                                 699K 349K
+        textures\tx_hlaalu_topedge_03.dds                                 699K 174K
+        textures\tx_hlaalu_wall2_01.dds                                     5M   1M
+        textures\tx_hlaalu_wall2_02.dds                                     5M 699K
+        textures\tx_hlaalu_wall2_03.dds                                     5M 699K
+        textures\tx_metal_hlaalulock.dds                                   87K 174K
+        textures\tx_stone_hlaalu_floor.dds                                  5M 699K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  2.61  1.54    1.76    58.35   854  242M
+        textures\tx_glass_amber_02.dds                                      1M  43K
+        textures\tx_hlaalu_ceiling.dds                                      1M 699K
+        textures\tx_hlaalu_ceiling_01.dds                                 699K  43K
+        textures\tx_hlaalu_door_01.dds                                      2M 349K
+        textures\tx_hlaalu_door_02.dds                                      2M 349K
+        textures\tx_hlaalu_doorplank_01.dds                               349K  11K
+        textures\tx_hlaalu_hallt_wall.dds                                   5M 699K
+        textures\tx_hlaalu_sideedge_01.dds                                699K  87K
+        textures\tx_hlaalu_topedge_01.dds                                 699K 174K
+        textures\tx_hlaalu_topedge_02.dds                                 699K 174K
+        textures\tx_hlaalu_topedge_03.dds                                 699K 174K
+        textures\tx_hlaalu_wall2_01.dds                                     5M 699K
+        textures\tx_hlaalu_wall2_02.dds                                     5M 699K
+        textures\tx_hlaalu_wall2_03.dds                                     5M 699K
+        textures\tx_metal_hlaalulock.dds                                   87K  43K
+        textures\tx_stone_hlaalu_floor.dds                                  5M 174K
+        textures\tx_stone_hlaalu_floor_01.dds                               2M  87K
+        textures\tx_wood_weathered_rings_01.dds                             5M 174K
+        textures\tx_wood_wethered.dds                                       5M 174K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Lougian's Redoran Bump Mapped 2.0.7z                                                                               224  154M
+    Connary's Textures Pack Full.7z                                                  2.75  1.25    1.80     5.07  1111  322M
+        textures\tx_block_adobe_white_01.dds                                1M 174K
+        textures\tx_redoran_blue_01.dds                                     5M 699K
+        textures\tx_redoran_border_01.dds                                   2M 349K
+        textures\tx_redoran_brokenedge_01.dds                               1M  43K
+        textures\tx_redoran_column_01.dds                                   2M  87K
+        textures\tx_redoran_d_edge_01.dds                                  87K  43K
+        textures\tx_redoran_door_01.dds                                     2M  87K
+        textures\tx_redoran_floor_01.dds                                    5M 699K
+        textures\tx_redoran_hut_00.dds                                      5M 699K
+        textures\tx_redoran_hut_03.dds                                      5M 174K
+        textures\tx_redoran_marble_red.dds                                  5M 699K
+        textures\tx_redoran_marble_white.dds                                5M 699K
+        textures\tx_redoran_tavern_01.dds                                   5M 174K
+        textures\tx_redoran_tile_01.dds                                     1M 699K
+        textures\tx_redoran_tile_03.dds                                     1M 174K
+        textures\tx_redoran_wall_01_05.dds                                  2M  87K
+    Morrowind Visual Pack 3.0RC1.7z                                                  3.23  1.52    1.64    63.68   854  242M
+        textures\tx_block_adobe_white_01.dds                                1M  43K
+        textures\tx_r_door_03.dds                                         699K 174K
+        textures\tx_redoran_barracks_trim.dds                               1M 174K
+        textures\tx_redoran_blue_01.dds                                     5M 699K
+        textures\tx_redoran_border_01.dds                                   2M  87K
+        textures\tx_redoran_brokenedge_01.dds                               1M  11K
+        textures\tx_redoran_column_01.dds                                   2M 349K
+        textures\tx_redoran_d_edge_01.dds                                  87K 174K
+        textures\tx_redoran_door_01.dds                                     2M  87K
+        textures\tx_redoran_floor_01.dds                                    5M 174K
+        textures\tx_redoran_hut_00.dds                                      5M 699K
+        textures\tx_redoran_hut_03.dds                                      5M 174K
+        textures\tx_redoran_marble_red.dds                                  5M 172K
+        textures\tx_redoran_marble_white.dds                                5M 172K
+        textures\tx_redoran_tavern_01.dds                                   5M 174K
+        textures\tx_redoran_tile_01.dds                                     1M 174K
+        textures\tx_redoran_tile_03.dds                                     1M  43K
+        textures\tx_redoran_wall_01_05.dds                                  2M  87K
+Max & co's Windows Glow (+WindowLights+abot+Gemini).7z                                                             200   23M
+    AOF's Imperial Housing 2.0 & Elmer's Bump Mapped 1.2.7z                          1.78  0.99    0.88     1.39   142   68M
+        textures\tx_window_diamond_01.dds                                 349K  87K
+    AOF's Vivec Velothi Retextured 3.2 & Biont's Vivec Bump Maps 1.0.7z              3.17  1.05    1.11     2.94   264   55M
+        textures\tx_glass_amber_02.dds                                    349K  21K
+    Connary's Textures Pack Full.7z                                                  2.06  1.15    1.88     3.84  1111  322M
+        textures\tx_glass_amber_02.dds                                    349K  43K
+        textures\tx_window_diamond_01.dds                                 349K  87K
+    Morrowind Visual Pack 3.0RC1.7z                                                  2.38  1.45    1.71    49.38   854  242M
+        textures\tx_glass_amber_02.dds                                    349K  43K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Saint Jiub's Better Plaza Statues.7z                                                                                 2   22M
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              1.78  0.95    4.96     7.51   156  144M
+        textures\amalexia_statue.dds                                       11M   2M
+        textures\mehrunesdagon.dds                                         11M   2M
+Saint Jiub's Lore-Friendly Ghostfence Texture.7z                                                                     2    2M
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.58  1.35    9.27   180.05   854  242M
+        textures\tx_gg_fence_01.dds                                         1M 349K
+        textures\tx_gg_fence_02.dds                                         1M 349K
+3vill33t's Ogrim Retex.7z                                                                                           11   13M
+    Darknut's Creature Textures 512.7z                                               2.36  0.74    4.02     5.93   486   33M
+        textures\tx_creature_clannfear_11.dds                             262K  11K
+        textures\tx_creature_clannfear_daddy_00.dds                         4M 174K
+        textures\tx_creature_clannfear_daddy_03.dds                        21K  21K
+        textures\tx_creature_clannfear_daddy_04.dds                        21K  21K
+        textures\tx_creature_clannfear_daddy_05.dds                         4M 174K
+        textures\tx_creature_clannfear_daddy_06.dds                       131K  21K
+        textures\tx_creature_clannfear_daddy_07.dds                       524K  87K
+        textures\tx_creature_clannfear_daddy_08.dds                         2M  87K
+        textures\tx_creature_clannfear_daddy_09.dds                         1M  43K
+        textures\tx_creature_clannfear_daddy_10.dds                        21K  21K
+        textures\tx_creature_clannfear_daddy_11.dds                         1M  43K
+    Connary's Textures Pack Full.7z                                                  1.72  0.75    5.45     6.32  1111  322M
+        textures\tx_creature_clannfear_11.dds                             262K 174K
+        textures\tx_creature_clannfear_daddy_00.dds                         4M 699K
+        textures\tx_creature_clannfear_daddy_03.dds                        21K  21K
+        textures\tx_creature_clannfear_daddy_04.dds                        21K  21K
+        textures\tx_creature_clannfear_daddy_05.dds                         4M 699K
+        textures\tx_creature_clannfear_daddy_06.dds                       131K  21K
+        textures\tx_creature_clannfear_daddy_07.dds                       524K  87K
+        textures\tx_creature_clannfear_daddy_08.dds                         2M  87K
+        textures\tx_creature_clannfear_daddy_09.dds                         1M 174K
+        textures\tx_creature_clannfear_daddy_10.dds                        21K  21K
+        textures\tx_creature_clannfear_daddy_11.dds                         1M 174K
+Darknut's Creature Textures 512.7z                                                                                 486   33M
+    Dagoth Agahnim's Sobitur Facility 5.2.1.7z                                       0.75  2.28    2.09     3.79  3616  107M
+        textures\tx_goblinccloth00.dds                                     21K  43K
+        textures\tx_goblinskin.dds                                        174K 349K
+    Connary's Textures Pack Full.7z                                                  0.79  1.01    1.36     1.14  1111  322M
+        textures\tx_atronach_frost.dds                                     43K 174K
+        textures\tx_atronach_frost_01.dds                                  87K 349K
+        textures\tx_atronach_frost_02.dds                                  43K 349K
+        textures\tx_atronach_frost_03.dds                                  21K 349K
+        textures\tx_atronach_frost_04.dds                                  87K 349K
+        textures\tx_atronach_frost_05.dds                                  87K 349K
+        textures\tx_atronach_frost_06.dds                                  43K 174K
+        textures\tx_atronach_frost_armor_00.dds                            43K 174K
+        textures\tx_atronach_frost_armor_01.dds                            43K 174K
+        textures\tx_atronach_frost_armor_02.dds                            87K 349K
+        textures\tx_atronach_frost_face.dds                                43K 699K
+        textures\tx_atronach_frost_thigh.dds                               87K 349K
+        textures\tx_atronach_frost_uarm.dds                                87K 349K
+        textures\tx_atronach_storm_chest.dds                              174K 699K
+        textures\tx_atronach_storm_face.dds                               174K 174K
+        textures\tx_atronach_storm_granite.dds                             43K 174K
+        textures\tx_atronach_storm_leg1.dds                                43K 174K
+        textures\tx_atronach_storm_legb.dds                                43K 174K
+        textures\tx_atronach_storm_rock.dds                                43K 174K
+        textures\tx_atronach_storm_shoulders.dds                          174K 174K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  0.60  1.20    1.23     9.84   854  242M
+        textures\tx_guarskin_dark_01.dds                                  174K 699K
+        textures\tx_guarskin_hut_03.dds                                   174K 699K
+        textures\tx_siltstrider_dead_00.dds                               174K 699K
+        textures\tx_siltstrider_dead_01.dds                               174K 699K
+        textures\tx_siltstrider_dead_02.dds                                43K 174K
+        textures\tx_siltstrider_dead_03.dds                                43K 174K
+        textures\tx_siltstrider_dead_04.dds                                21K  87K
+        textures\tx_siltstrider_dead_05.dds                                 5K  21K
+        textures\tx_siltstrider_dead_06.dds                                11K  43K
+        textures\tx_siltstrider_dead_07.dds                               174K 699K
+        textures\tx_siltstrider_dead_11.dds                                11K  43K
+        textures\tx_siltstrider_skin_00.dds                               174K 699K
+        textures\tx_siltstrider_skin_01.dds                               174K 699K
+        textures\tx_siltstrider_skin_02.dds                                43K 174K
+        textures\tx_siltstrider_skin_03.dds                                43K 174K
+        textures\tx_siltstrider_skin_04.dds                                21K  87K
+        textures\tx_siltstrider_skin_05.dds                                 5K  21K
+        textures\tx_siltstrider_skin_06.dds                                11K  43K
+        textures\tx_siltstrider_skin_07.dds                                21K  21K
+        textures\tx_siltstrider_skin_08.dds                                11K  11K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Liztail's Beast Bodies 3.3 and Shadow 2.0.7z                                                                        40    7M
+    emma's Children of Morrowind.7z                                                  1.68  1.00    5.32     8.07  3767  257M
+        textures\new_beast\khaj_f_fingers.dds                              43K  11K
+        textures\new_beast\khaj_f_foot.dds                                 87K  21K
+        textures\new_beast\khaj_f_palm.dds                                 43K  11K
+        textures\new_beast\khaj_f_tail.dds                                174K  43K
+        textures\new_beast\khaj_f_thumb.dds                                43K  11K
+        textures\new_beast\khaj_m_fingers.dds                              43K  11K
+        textures\new_beast\khaj_m_foot.dds                                 87K  87K
+        textures\new_beast\khaj_m_palm.dds                                 43K  11K
+        textures\new_beast\khaj_m_tail.dds                                174K  43K
+        textures\new_beast\khaj_m_thumb.dds                                43K  11K
+Neoptolemus' Unique Creatures.7z                                                                                    78   18M
+    Neoptolemus' The Undead 4.0.7z                                                   1.02  0.93    2.15     2.02   628  168M
+        meshes\mca\mca_skeleton_berserk01.nif                             174K 183K
+        meshes\mca\mca_skeleton_berserk02.nif                             174K 183K
+        meshes\mca\mca_skeleton_nordmail.nif                              201K 209K
+        meshes\mca\mca_skeleton_orcish.nif                                252K 252K
+        meshes\mca\mca_skeleton_warwizard.nif                             287K 201K
+Petethegoat's Better Heads Male Dunmer Texture Fix.7z                                                               24    1M
+    Neoptolemus' Minions of House Dagoth 1.1.7z                                      1.03  1.69    2.05     3.56   170   15M
+        textures\bh\bh_ds_de_m_head03.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head06.dds                                  43K  32K
+        textures\bh\bh_gt_de_m_head16.dds                                  43K  43K
+        textures\fp2m.dds                                                  21K  21K
+    Motoki & co's Better Heads 2.0.7z                                                1.01  1.70    3.50     5.96   724   25M
+        textures\bh\bh_don_de_m_head02.dds                                 43K  32K
+        textures\bh\bh_don_de_m_head03.dds                                 43K  43K
+        textures\bh\bh_don_de_m_head04.dds                                 43K  43K
+        textures\bh\bh_don_de_m_head06.dds                                 43K  43K
+        textures\bh\bh_don_de_m_head10.dds                                 43K  43K
+        textures\bh\bh_don_de_m_head12.dds                                 43K  43K
+        textures\bh\bh_ds_de_m_head01.dds                                  43K  43K
+        textures\bh\bh_ds_de_m_head04.dds                                  43K  43K
+        textures\bh\bh_ds_de_m_head05.dds                                  43K  43K
+        textures\bh\bh_ds_de_m_head06.dds                                  43K  43K
+        textures\bh\bh_ds_de_m_head16.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head03.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head04.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head05.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head09.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head11.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head13.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head14.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head17.dds                                  43K  43K
+        textures\bh\bh_gt_de_m_head18.dds                                  43K  43K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+tronvillain & co's Better Skulls 1.4b.7z                                                                            51    7M
+    Darknut's Creature Textures 512.7z                                               1.74  1.04    2.29     3.71   486   33M
+        textures\tx_bonelord_skull.dds                                    349K  87K
+        textures\tx_skeleton_foot01.dds                                    87K   5K
+        textures\tx_skeleton_hand.dds                                     174K  43K
+        textures\tx_skeleton_hipbone.dds                                  174K  43K
+        textures\tx_skeleton_jaw.dds                                      131K  43K
+        textures\tx_skeleton_radius.dds                                    43K  11K
+        textures\tx_skeleton_ribcage01.dds                                 87K  87K
+        textures\tx_skeleton_sacrum.dds                                    43K  11K
+        textures\tx_skeleton_scapula.dds                                   43K  11K
+        textures\tx_skeleton_skull.dds                                    262K  87K
+        textures\tx_skeleton_spine.dds                                    174K  43K
+    Alaisiagae's Ultimate Icon Replacer.7z                                           0.78  0.96    3.04     2.39  1051    1M
+        icons\m\misc_skull00.dds                                          640o   1K
+        icons\m\misc_skull10.dds                                          640o   1K
+    Connary's Textures Pack Full.7z                                                  0.95  1.01    3.10     3.02  1111  322M
+        textures\tx_bonelord_skull.dds                                    349K 349K
+        textures\tx_skeleton_foot01.dds                                    87K  43K
+        textures\tx_skeleton_hand.dds                                     174K 174K
+        textures\tx_skeleton_hipbone.dds                                  174K 174K
+        textures\tx_skeleton_jaw.dds                                      131K 349K
+        textures\tx_skeleton_radius.dds                                    43K  43K
+        textures\tx_skeleton_ribcage01.dds                                 87K  87K
+        textures\tx_skeleton_sacrum.dds                                    43K  43K
+        textures\tx_skeleton_scapula.dds                                   43K  87K
+        textures\tx_skeleton_skull.dds                                    262K 349K
+        textures\tx_skeleton_spine.dds                                    174K 174K
+tronvillain's Better Scamps 1.0b.7z                                                                                 18    4M
+    Darknut's Creature Textures 512.7z                                               2.38  1.14    3.36     7.68   486   33M
+        textures\tx_creature_samp_fetch_00.dds                            349K  87K
+        textures\tx_creature_samp_fetch_01.dds                            699K 174K
+        textures\tx_creature_samp_fetch_02.dds                            174K  43K
+        textures\tx_creature_samp_fetch_03.dds                            174K  43K
+        textures\tx_creature_samp_fetch_04.dds                            174K  11K
+        textures\tx_creature_samp_fetch_05.dds                            174K  11K
+        textures\tx_creature_samp_fetch_06.dds                            174K  11K
+        textures\tx_creature_samp_fetch_07.dds                            174K  43K
+        textures\tx_creature_samp_fetch_08.dds                            174K  11K
+        textures\tx_creature_samp_fetch_09.dds                            174K  11K
+        textures\tx_creature_samp_fetch_10.dds                            699K 174K
+        textures\tx_creature_samp_fetch_11.dds                             87K  21K
+        textures\tx_creature_samp_fetch_12.dds                            131K  21K
+        textures\tx_creature_samp_fetch_13.dds                            174K  11K
+        textures\tx_creature_samp_fetch_14.dds                            262K  11K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Apel's Fire Retexture 2.0.7z                                                                                        22    9M
+    Connary's Textures Pack Full.7z                                                  1.00  1.24    4.23     5.25  1111  322M
+        meshes\l\light_dae_brazier00.nif                                   32K  32K
+Alaisiagae's Dwemer Crossbow Replacer.7z                                                                             2   91K
+    Alaisiagae's Ultimate Icon Replacer.7z                                           0.78  0.95   10.00     7.80  1051    1M
+        icons\w\tx_crossbow_dwemer.dds                                    640o   1K
+Baldurian's Transparent Glass Equipment.7z                                                                         108   32M
+    Morrowind Patch Project 1.6.5 Beta (BTB Edit).7z                                 0.95  1.14    0.74     8.14    48    7M
+        meshes\a\a_glass_helmet.nif                                        38K  42K
+    Darknut's Armor Textures 512.7z                                                  1.61  1.07    1.72     2.68   474   86M
+        textures\tx_a_glass_bootb.dds                                     174K  87K
+        textures\tx_a_glass_bracer.dds                                    174K  87K
+        textures\tx_a_glass_c_front.dds                                   174K  87K
+        textures\tx_a_glass_c_side.dds                                    174K  87K
+        textures\tx_a_glass_curiass00.dds                                 699K 349K
+        textures\tx_a_glass_curiass01.dds                                 699K  87K
+        textures\tx_a_glass_emerald.dds                                     1M   5K
+        textures\tx_a_glass_fa.dds                                        174K  87K
+        textures\tx_a_glass_greaves.dds                                   174K  87K
+        textures\tx_a_glass_h00.dds                                       174K  87K
+        textures\tx_a_glass_h02.dds                                       699K 349K
+        textures\tx_a_glass_h03.dds                                         1M 349K
+        textures\tx_a_glass_h_back.dds                                    174K  87K
+        textures\tx_a_glass_h_sideside.dds                                174K  87K
+        textures\tx_a_glass_pauldron.dds                                    1M 349K
+        textures\tx_a_glass_shield.dds                                      1M 349K
+        textures\tx_a_glass_towershield.dds                               524K 174K
+        textures\tx_a_glass_ua_p.dds                                      699K  87K
+        textures\tx_a_glass_ul.dds                                        174K  87K
+        textures\tx_a_orcish_cloth.dds                                    349K 174K
+        [...]
+    Darknut's Little Weapons Mod 512.7z                                              1.87  1.07    1.50     2.65   324   17M
+        textures\tx_w_crystal_blade.dds                                    32K   5K
+        textures\tx_w_crystal_guard.dds                                    65K  11K
+        textures\tx_w_crystal_quillion.dds                                131K  21K
+        textures\tx_w_dagger_glass.dds                                    262K  43K
+        textures\tx_w_ebony_edging.dds                                      1K   2K
+        textures\tx_w_glass_arrow.dds                                     262K  43K
+        textures\tx_w_halberd_glass_00.dds                                 65K  11K
+        textures\tx_w_halberd_glass_01.dds                                262K  43K
+        textures\tx_w_knife_glass_00.dds                                   87K  22K
+        textures\tx_w_knife_glass_01.dds                                  524K  87K
+        textures\tx_w_mace_shaft.dds                                       87K  22K
+        textures\tx_w_silver_spear02.dds                                   87K  22K
+        textures\tx_w_staff_glass_01.dds                                  174K  43K
+        textures\tx_w_staff_glass_02.dds                                   43K  11K
+        textures\tx_w_staff_glass_03.dds                                   87K  21K
+        textures\tx_w_star_glass.dds                                      262K  43K
+        textures\tx_w_waraxe_glass_00.dds                                   1M 174K
+        textures\tx_w_waraxe_glass_handle.dds                              87K  21K
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.00  1.19    2.14    25.51   854  242M
+        textures\tx_wood_door.dds                                         174K 174K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Darknut's Armor Textures 512.7z                                                                                    474   86M
+    Darknut's Creature Textures 512.7z                                               1.33  0.98    1.01     1.25   486   33M
+        textures\tx_a_ice minions_sheath.dds                               87K  43K
+        textures\tx_a_ice minions_shield1.dds                              87K  43K
+        textures\tx_a_ice minions_shield2.dds                              87K  43K
+        textures\tx_a_ice minions_shield2_bk.dds                           87K  43K
+        textures\tx_a_ice minions_shield_bk.dds                            87K  43K
+        textures\tx_steam_centurions_34.dds                                87K  43K
+    Darknut's Little Weapons Mod 512.7z                                              1.33  0.97    0.87     1.06   324   17M
+        textures\tx_a_azura_star.dds                                       87K  43K
+        textures\tx_w_waraxe_glass_00.dds                                 349K 174K
+    Connary's Textures Pack Full.7z                                                  1.33  0.99    1.37     1.71  1111  322M
+        textures\tx_steam_centurions_34.dds                                87K  43K
+Darknut's Armor Textures Divine Domina 512.7z                                                                      203   32M
+    Neoptolemus' Minions of House Dagoth 1.1.7z                                      2.38  3.11    0.94     5.82   170   15M
+        textures\tx_a_domina_glove.dds                                    174K  21K
+Darknut's Little Weapons Mod 512.7z                                                                                324   17M
+    Morrowind Visual Pack 3.0RC1.7z                                                  0.56  1.22    1.43    10.96   854  242M
+        textures\tx_metal_strip_01.dds                                     11K  43K
+        textures\tx_metal_strip_02.dds                                     11K  43K
+Psy's Iron and Oriental Mesh Improvements.7z                                                                        45    2M
+    Morrowind Patch Project 1.6.5 Beta (BTB Edit).7z                                 1.67  1.08    1.02    16.63    48    7M
+        meshes\w\w_tanto_iron.nif                                          30K   9K
+    Alaisiagae's Ultimate Icon Replacer.7z                                           1.00  0.99    3.18     3.15  1051    1M
+        icons\w\tx_claymore_iron.dds                                        1K   1K
+        icons\w\tx_warhammer_iron.dds                                       1K   1K
+Psychodog Studios & co's Better Clothes 1.1 (+Darknut+Plangkye+BTB).7z                                             328  180M
+    abot's Water Life 1.21.7z                                                        2.38  1.36    1.41     3.84   829   54M
+        textures\bc\bc_pant_com_01z.dds                                     1M 174K
+    emma's Children of Morrowind.7z                                                  2.22  1.01    2.45     4.68  3767  257M
+        textures\bc\bc_maras_shirt_male.dds                                 1M 174K
+        textures\bc\bc_maras_shirt_male_sleeves.dds                         1M 174K
+        textures\bc\bc_pant_com_01a.dds                                     1M 174K
+        textures\bc\bc_pant_com_01u.dds                                     1M 174K
+        textures\bc\bc_pant_com_03.dds                                      1M 174K
+        textures\bc\bc_pant_com_03c.dds                                     1M 174K
+        textures\bc\bc_pant_com_05.dds                                      1M 174K
+        textures\bc\bc_pant_exp_01z.dds                                     1M 174K
+        textures\bc\bc_shirt_com_01_male.dds                                1M 696K
+        textures\bc\bc_shirt_com_01a_male.dds                               1M 174K
+        textures\bc\bc_shirt_com_02_male.dds                              699K 348K
+        textures\bc\bc_shirt_com_02hh_male.dds                              1M 174K
+        textures\bc\bc_shirt_com_02rr_male.dds                              1M 174K
+        textures\bc\bc_shirt_com_02tt_fem.dds                               1M 174K
+        textures\bc\bc_shirt_com_03_male.dds                                1M 174K
+        textures\bc\bc_shirt_com_03b_male.dds                               1M 174K
+        textures\bc\bc_shirt_com_03c_male.dds                               1M 174K
+        textures\bc\bc_shirt_com_04_fem.dds                               699K 348K
+        textures\bc\bc_shirt_com_04_male.dds                              699K 348K
+        textures\bc\bc_shirt_com_04b_male.dds                             699K 348K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Yar-Yulme's Dwemeri Gifts 1.2.7z                                                                                    28   14M
+    Qarl's Misc Items Replacer.7z                                                    0.75  1.01    1.88     1.52   157   19M
+        textures\q_refl_writing_dark.dds                                   43K  87K
+Alaisiagae's Ultimate Icon Replacer.7z                                                                            1051    1M
+    Morrowind Patch Project 1.6.5 Beta (BTB Edit).7z                                 1.00  1.08    0.32     3.48    48    7M
+        icons\n\tx_adamantium.dds                                           1K   1K
+    Tealpanda's Unique Jewelry and Accessories 2.71.7z                               1.28  0.97    1.05     1.24  1193   45M
+        icons\m\tx_flask_01.dds                                             1K 640o
+        icons\m\tx_flask_02.dds                                             1K 640o
+        icons\m\tx_flask_03.dds                                             1K 640o
+        icons\m\tx_flask_04.dds                                             1K 640o
+    Connary's Textures Pack Full.7z                                                  0.89  1.18    1.02     1.09  1111  322M
+        icons\m\tx_potion_bargain_01.dds                                    1K   1K
+        icons\m\tx_potion_cheap_01.dds                                      1K   1K
+        icons\m\tx_potion_exclusive_01.dds                                  1K   1K
+        icons\m\tx_potion_fresh_01.dds                                      1K   1K
+        icons\m\tx_potion_quality_01.dds                                    1K   1K
+        icons\m\tx_potion_standard_01.dds                                   1K   1K
+        icons\n\tx_comberry_brandy_01.dds                                   1K   1K
+        icons\n\tx_comberry_wine_01.dds                                     1K   1K
+        icons\n\tx_cyro_brandy_01.dds                                       1K   1K
+        icons\n\tx_cyro_whiskey_01.dds                                      1K   1K
+        icons\n\tx_local_brew_01.dds                                        1K   1K
+        icons\n\tx_local_liquor_01.dds                                      1K   1K
+        icons\n\tx_skooma_01.dds                                            1K   1K
+        icons\n\tx_t_bug_musk_01.dds                                        1K   1K
+    Morrowind Visual Pack 3.0RC1.7z                                                  0.89  1.40    0.93    11.83   854  242M
+        icons\m\tx_gold_001.dds                                             1K   1K
+Keazen's Journal Books.7z                                                                                            2  786K
+    Illy's Dirty Books.7z                                                            1.13  0.85    5.75     5.36   233   54M
+        textures\tx_menubook.dds                                          699K 524K
+        textures\tx_menubook_bookmark.dds                                  87K  65K
+Marbred's Magic Icon Border - Alt Beth Swirl.7z                                                                      5   23K
+    PeterBitt's Modern User Interface 1.0.7z                                         1.13  0.90    2.36     2.33    52   82K
+        textures\menu_icon_magic.dds                                        5K   4K
+        textures\menu_icon_magic_barter.dds                                 5K   4K
+        textures\menu_icon_magic_equip.dds                                  5K   4K
+        textures\menu_icon_magic_mini.dds                                   1K   1K
+        textures\menu_icon_select_magic_magic.dds                           5K   4K
+MGE XE Data 0.9.10.7z                                                                                               52    2M
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              0.96  1.02    1.50     1.47   156  144M
+        meshes\x\ex_longboat01.nif                                        185K 209K
+        meshes\x\ex_longboat02.nif                                        185K 204K
+    Slartibartfast's Mesh Fix 1.2.7z                                                 0.93  0.99    1.38     1.29   124    4M
+        meshes\x\ex_longboat01.nif                                        185K 222K
+        meshes\x\ex_longboat02.nif                                        185K 214K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+AOF's Waterfalls 1.1.7z                                                                                              8    3M
+    AOF's Vivec Velothi Retextured 3.2 & Biont's Vivec Bump Maps 1.0.7z              1.78  0.99    3.62     5.68   264   55M
+        textures\tx_waterfall_01_nm.dds                                     1M 349K
+        textures\tx_waterfall_02_nm.dds                                     1M 349K
+Baldurian's Scum Texture and Mesh Replacer.7z                                                                        4    1M
+    Connary's Textures Pack Full.7z                                                  1.18  1.14    7.91    10.32  1111  322M
+        textures\tx_bc_scum.dds                                             1M 699K
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.18  1.41    7.18   116.19   854  242M
+        textures\tx_bc_scum.dds                                             1M 699K
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              0.50  1.00    3.84     2.19   156  144M
+        textures\tx_bc_scum.dds                                             1M   5M
+Bloodinfested's BC Plant life.7z                                                                                    18    6M
+    Connary's Textures Pack Full.7z                                                  1.62  1.14    4.55     7.61  1111  322M
+        textures\tx_bc_fern_01.dds                                        699K 699K
+        textures\tx_bc_fern_02.dds                                        699K 699K
+        textures\tx_bc_fungusbottom_01.dds                                349K  87K
+        textures\tx_bc_fungusbottom_02.dds                                349K  43K
+        textures\tx_bc_fungustop_01.dds                                   349K  43K
+        textures\tx_bc_fungustop_02.dds                                   349K  43K
+        textures\tx_bc_grassblade.dds                                      22K 174K
+        textures\tx_bc_lilypad_01.dds                                     349K  87K
+        textures\tx_bc_lilypad_02.dds                                     349K  87K
+        textures\tx_bc_lilypad_03.dds                                     349K  87K
+        textures\tx_bc_mushroom_01.dds                                    349K 174K
+        textures\tx_bc_mushroom_02.dds                                    174K 349K
+        textures\tx_bc_mushroom_03.dds                                    349K  87K
+        textures\tx_bc_mushroom_04.dds                                    349K  43K
+        textures\tx_bc_podplant_01.dds                                     22K  21K
+        textures\tx_bc_podplant_02.dds                                    349K  43K
+        textures\tx_bc_podplant_03.dds                                    349K 174K
+        textures\tx_bc_podplant_04.dds                                    349K   2K
+    Morrowind Visual Pack 3.0RC1.7z                                                  4.00  1.41    4.13   176.90   854  242M
+        textures\tx_bc_fungusbottom_01.dds                                349K  11K
+        textures\tx_bc_fungusbottom_02.dds                                349K  11K
+        textures\tx_bc_fungustop_01.dds                                   349K  43K
+        textures\tx_bc_fungustop_02.dds                                   349K  11K
+        textures\tx_bc_lilypad_01.dds                                     349K  22K
+        textures\tx_bc_lilypad_02.dds                                     349K  22K
+        textures\tx_bc_lilypad_03.dds                                     349K  22K
+        textures\tx_bc_mushroom_01.dds                                    349K  11K
+        textures\tx_bc_mushroom_02.dds                                    174K   2K
+        textures\tx_bc_mushroom_03.dds                                    349K   2K
+        textures\tx_bc_mushroom_04.dds                                    349K  11K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Lougian's Bloodmoon Caverns Bump Mapped 1.0.7z                                                                     169   82M
+    Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z                             1.28  1.10    1.08     1.45   210   70M
+        meshes\i\bm_ic_cavern_01.nif                                       41K  40K
+        meshes\i\bm_ic_cavern_01_01.nif                                    10K   9K
+        meshes\i\bm_ic_room02_entrance.nif                                 21K  20K
+        meshes\i\bm_ic_type02_exit_01.nif                                  29K  28K
+        meshes\i\bm_ic_type02_exit_03.nif                                  30K  29K
+        meshes\i\in_bm_cave_trans_03.nif                                   59K  58K
+        meshes\i\in_bm_hbane_ent_01.nif                                    50K  47K
+        meshes\i\in_bm_t_int_center_01.nif                                  9K   8K
+        meshes\i\in_bm_t_int_column_01.nif                                  5K   4K
+        meshes\i\in_bm_t_int_corner_01.nif                                 46K  44K
+        meshes\i\in_bm_t_int_entrance_01.nif                               25K  23K
+        meshes\i\in_bm_t_int_entrance_02.nif                               58K  55K
+        meshes\i\in_bm_t_int_wall_01.nif                                   35K  33K
+        meshes\i\in_bm_t_int_wall_02.nif                                   31K  29K
+        meshes\i\in_bm_tomb_3way_01.nif                                    45K  43K
+        meshes\i\in_bm_tomb_4way_01.nif                                    38K  37K
+        meshes\i\in_bm_tomb_cap_01.nif                                     78K  76K
+        meshes\i\in_bm_tomb_corner_01.nif                                  62K  61K
+        meshes\i\in_bm_tomb_entrance_01.nif                                64K  62K
+        meshes\i\in_bm_tomb_entrance_02.nif                                56K  55K
+        [...]
+    Taddeus' On The Rocks.7z                                                         2.38  1.05    1.57     1.65   574   91M
+        textures\tx_bm_rock_02.dds                                          5M 699K
+        textures\tx_bm_tomb_01.dds                                          2M 349K
+Lougian's Bloodmoon Rocks Bump Mapped 1.0.7z                                                                        91   45M
+    Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z                             1.01  1.06    1.36     1.45   210   70M
+        meshes\f\terrain_rock_bm_02.nif                                     8K   8K
+        meshes\f\terrain_rock_bm_03.nif                                     7K   7K
+        meshes\f\terrain_rock_bm_04.nif                                     8K   8K
+        meshes\f\terrain_rock_bm_05.nif                                     9K   9K
+        meshes\f\terrain_rock_bm_06.nif                                     8K   8K
+        meshes\f\terrain_rock_bm_07.nif                                     9K   9K
+        meshes\f\terrain_rock_bm_08.nif                                     9K   9K
+        meshes\f\terrain_rock_bm_09.nif                                     8K   8K
+        meshes\f\terrain_rock_bm_14.nif                                     9K   8K
+        meshes\f\terrain_rock_bm_15.nif                                     7K   7K
+        meshes\f\terrain_rock_bm_19.nif                                     9K   9K
+        meshes\f\terrain_rock_bm_31.nif                                     9K   8K
+        meshes\f\terrain_rock_bm_45.nif                                     7K   7K
+        meshes\f\terrain_rock_bm_46.nif                                     7K   7K
+        meshes\f\terrain_rock_bm_49.nif                                     6K   6K
+        meshes\f\terrain_rock_bm_52.nif                                    39K  39K
+        meshes\f\terrain_rock_bm_53.nif                                    16K  15K
+        meshes\f\terrain_rock_bm_54.nif                                    24K  41K
+        meshes\f\terrain_rock_bm_56.nif                                     8K   8K
+        meshes\f\terrain_rock_bm_57.nif                                     8K   8K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Lougian's Caverns Bump Mapped 1.3.7z                                                                               689   90M
+    Connary's Textures Pack Full.7z                                                  2.38  1.24    1.19     2.95  1111  322M
+        textures\tx_cavern_bone00.dds                                       5M 699K
+        textures\tx_natural_cavern_wall00.dds                               5M 699K
+        textures\tx_natural_cavern_wall20.dds                               5M 699K
+        textures\tx_rock_cave_l_01.dds                                      5M 699K
+    Morrowind Visual Pack 3.0RC1.7z                                                  2.38  1.50    1.08    32.49   854  242M
+        textures\tx_cavern_bone00.dds                                       5M 699K
+        textures\tx_natural_cavern_wall00.dds                               5M 699K
+        textures\tx_natural_cavern_wall10.dds                               5M 699K
+        textures\tx_natural_cavern_wall20.dds                               5M 699K
+        textures\tx_rock_cave_l_01.dds                                      5M 699K
+Lougian's Landscape retexture 1k 2.0.7z                                                                             84   59M
+    Taddeus' On The Rocks.7z                                                         1.16  1.42    2.03     1.61   574   91M
+        textures\tx_land_darkstone01.dds                                  699K 699K
+        textures\tx_ma_lava05a.dds                                          1M 699K
+    Connary's Textures Pack Full.7z                                                  0.99  1.30    2.58     3.32  1111  322M
+        textures\tx_bc_dirt.dds                                           699K 699K
+        textures\tx_bc_grass.dds                                          699K   1M
+        textures\tx_bc_mainroad_01.dds                                    699K   1M
+        textures\tx_bc_moss.dds                                           699K 699K
+        textures\tx_bc_muck.dds                                           699K 699K
+        textures\tx_bc_muck_01.dds                                        699K 699K
+        textures\tx_bc_mud.dds                                            699K 699K
+        textures\tx_bc_scrub.dds                                          699K 699K
+        textures\tx_bc_undergrowth.dds                                    699K 699K
+        textures\tx_daed_road.dds                                         699K 699K
+        textures\tx_daed_road_02.dds                                      699K 699K
+        textures\tx_gl_dirt_01.dds                                        699K 699K
+        textures\tx_gl_dirt_02.dds                                        699K 699K
+        textures\tx_gl_dirt_grass_01.dds                                  699K 699K
+        textures\tx_gl_dirt_grass_02.dds                                  699K 699K
+        textures\tx_gl_dirtroad_01.dds                                    699K 699K
+        textures\tx_gl_grass_01.dds                                       699K 699K
+        textures\tx_gl_grass_02.dds                                       699K 699K
+        textures\tx_gl_grass_07.dds                                       699K 699K
+        textures\tx_gl_grass_10.dds                                       699K 699K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.11  1.55    2.35    39.43   854  242M
+        textures\tx_ac_dirt_01.dds                                        699K 699K
+        textures\tx_ac_dirt_02.dds                                        699K 699K
+        textures\tx_ac_dirt_grass_01.dds                                  699K 699K
+        textures\tx_ac_dirt_grass_02.dds                                  699K 699K
+        textures\tx_ac_dirtroad_01.dds                                    699K 699K
+        textures\tx_ac_scrubplain_01.dds                                  699K 699K
+        textures\tx_ac_scrubplain_02.dds                                  699K 699K
+        textures\tx_ai_clover_02.dds                                      699K 699K
+        textures\tx_ai_dirt_01.dds                                        699K 699K
+        textures\tx_ai_dirtpatch_01.dds                                   699K 699K
+        textures\tx_ai_dirtroad_01.dds                                    699K 699K
+        textures\tx_ai_grass_01.dds                                       699K 699K
+        textures\tx_ai_grass_dirt_01.dds                                  699K 699K
+        textures\tx_ai_mainroad_01.dds                                    699K   1M
+        textures\tx_ai_mudflats_01.dds                                    699K 699K
+        textures\tx_ai_tilled_dirt_01.dds                                 699K 699K
+        textures\tx_ashlands_04.dds                                       699K 699K
+        textures\tx_ashlands_06.dds                                       699K 699K
+        textures\tx_ashlands_07.dds                                       699K 699K
+        textures\tx_ashlands_08.dds                                       699K 699K
+        [...]
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              0.83  1.14    1.26     1.24   156  144M
+        textures\tx_ac_dirt_grass_02.dds                                  699K 699K
+        textures\tx_ac_scrubplain_01.dds                                  699K 699K
+        textures\tx_ai_dirtpatch_01.dds                                   699K   1M
+        textures\tx_ai_grass_dirt_01.dds                                  699K   1M
+        textures\tx_ai_mainroad_01.dds                                    699K   1M
+        textures\tx_ai_mudflats_01.dds                                    699K 699K
+        textures\tx_ai_tilled_dirt_01.dds                                 699K   1M
+        textures\tx_ashlands_07.dds                                       699K 699K
+        textures\tx_ashlands_08.dds                                       699K   1M
+        textures\tx_ashlands_road_01.dds                                  699K   1M
+        textures\tx_bc_dirt.dds                                           699K 699K
+        textures\tx_bc_grass.dds                                          699K   2M
+        textures\tx_bc_mainroad_01.dds                                    699K   2M
+        textures\tx_bc_muck.dds                                           699K 699K
+        textures\tx_bc_muck_01.dds                                        699K 699K
+        textures\tx_bc_mud.dds                                            699K   2M
+        textures\tx_bc_scrub.dds                                          699K 699K
+        textures\tx_bc_undergrowth.dds                                    699K   2M
+        textures\tx_gl_dirt_grass_02.dds                                  699K   1M
+        textures\tx_gl_grass_01.dds                                       699K 699K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Lougian's Waterfalls Retexture Bumped Mapped 1.2.7z                                                                 10   23M
+    AOF's Vivec Velothi Retextured 3.2 & Biont's Vivec Bump Maps 1.0.7z              0.94  1.08    3.33     3.45   264   55M
+        meshes\x\ex_vivec_waterfall_01.nif                                  9K  11K
+        meshes\x\ex_vivec_waterfall_03.nif                                 11K  13K
+        meshes\x\ex_vivec_waterfall_05.nif                                 10K  12K
+    Morrowind Visual Pack 3.0RC1.7z                                                 10.00  1.52    5.13   493.38   854  242M
+        textures\tx_waterfall_mist_01.dds                                   1M   5K
+Nich's correctUV Diverse Ore Veins.7z                                                                              106    2M
+    Lougian's Caverns Bump Mapped 1.3.7z                                             0.99  0.86    1.99     1.69   689   90M
+        meshes\ore\b\contain_bone_dmn_01.nif                               17K  18K
+        meshes\ore\b\contain_bone_dmn_02.nif                               19K  20K
+        meshes\ore\b\contain_bone_dmn_03.nif                               18K  18K
+        meshes\ore\b\contain_bone_dmn_04.nif                               31K  32K
+        meshes\ore\b\contain_bone_dmn_05.nif                               41K  42K
+        meshes\ore\b\contain_bone_dmn_06.nif                               20K  21K
+        meshes\ore\b\contain_bone_dmn_07.nif                               31K  32K
+        meshes\ore\b\contain_bone_ebo_01.nif                               12K  12K
+        meshes\ore\b\contain_bone_ebo_02.nif                               15K  15K
+        meshes\ore\b\contain_bone_ebo_03.nif                               13K  14K
+        meshes\ore\b\contain_bone_ebo_04.nif                               22K  23K
+        meshes\ore\b\contain_bone_ebo_05.nif                               29K  30K
+        meshes\ore\b\contain_bone_ebo_06.nif                               15K  16K
+        meshes\ore\b\contain_bone_ebo_07.nif                               23K  23K
+        meshes\ore\b\contain_bone_gla_01.nif                               18K  18K
+        meshes\ore\b\contain_bone_gla_02.nif                               23K  24K
+        meshes\ore\b\contain_bone_gla_03.nif                               20K  21K
+        meshes\ore\b\contain_bone_gla_04.nif                               34K  35K
+        meshes\ore\b\contain_bone_gla_05.nif                               46K  46K
+        meshes\ore\b\contain_bone_gla_06.nif                               26K  26K
+        [...]
+Slartibartfast's Underwater Static Replacer.7z                                                                      21    2M
+    Vurt's Groundcover 2.3a.7z                                                       0.45  1.09    2.13     1.23   164  135M
+        meshes\f\flora_kelp_01.nif                                          9K  75K
+        meshes\f\flora_kelp_02.nif                                          9K  98K
+        meshes\f\flora_kelp_03.nif                                         14K  68K
+        meshes\f\flora_kelp_04.nif                                         14K  70K
+    Morrowind Visual Pack 3.0RC1.7z                                                  2.37  1.42    3.90   110.56   854  242M
+        textures\tx_barnacle_01.dds                                       349K 174K
+        textures\tx_barnacle_02.dds                                       349K 174K
+        textures\tx_kelp_01.dds                                           174K  11K
+        textures\tx_kelp_02.dds                                           174K   2K
+        textures\tx_kelp_03.dds                                           349K  43K
+        textures\tx_shell00.dds                                           349K  43K
+        textures\tx_shell10.dds                                           349K  43K
+        textures\tx_shell20.dds                                           349K  43K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Taddeus' On The Rocks.7z                                                                                           574   91M
+    Lougian's Bloodmoon Rocks Bump Mapped 1.0.7z                                     1.34  0.95    0.51     1.23    91   45M
+        meshes\f\terrain_rock_bm_01.nif                                    27K   7K
+        meshes\f\terrain_rock_bm_02.nif                                    18K   8K
+        meshes\f\terrain_rock_bm_03.nif                                    19K   7K
+        meshes\f\terrain_rock_bm_04.nif                                    24K   8K
+        meshes\f\terrain_rock_bm_05.nif                                    20K   9K
+        meshes\f\terrain_rock_bm_06.nif                                    26K   8K
+        meshes\f\terrain_rock_bm_07.nif                                    25K   9K
+        meshes\f\terrain_rock_bm_08.nif                                    22K   9K
+        meshes\f\terrain_rock_bm_09.nif                                    25K   8K
+        meshes\f\terrain_rock_bm_32.nif                                    24K   8K
+        meshes\f\terrain_rock_bm_33.nif                                    22K   9K
+        meshes\f\terrain_rock_bm_34.nif                                    37K  10K
+        meshes\f\terrain_rock_bm_35.nif                                    36K   9K
+        meshes\f\terrain_rock_bm_38.nif                                    37K  10K
+        meshes\f\terrain_rock_bm_39.nif                                    36K   9K
+        meshes\f\terrain_rock_bm_40.nif                                    25K   9K
+        meshes\f\terrain_rock_bm_41.nif                                    25K  10K
+        meshes\f\terrain_rock_bm_42.nif                                    22K   7K
+        meshes\f\terrain_rock_bm_43.nif                                    22K   6K
+        meshes\f\terrain_rock_bm_44.nif                                    22K   8K
+        [...]
+    Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z                             1.26  1.02    0.69     1.70   210   70M
+        meshes\f\terrain_rock_bm_02.nif                                    18K   8K
+        meshes\f\terrain_rock_bm_03.nif                                    19K   7K
+        meshes\f\terrain_rock_bm_04.nif                                    24K   8K
+        meshes\f\terrain_rock_bm_05.nif                                    20K   9K
+        meshes\f\terrain_rock_bm_06.nif                                    26K   8K
+        meshes\f\terrain_rock_bm_07.nif                                    25K   9K
+        meshes\f\terrain_rock_bm_08.nif                                    22K   9K
+        meshes\f\terrain_rock_bm_09.nif                                    25K   8K
+        meshes\f\terrain_rock_bm_45.nif                                    22K   7K
+        meshes\f\terrain_rock_bm_46.nif                                    22K   7K
+        meshes\f\terrain_rock_bm_49.nif                                    22K   6K
+        meshes\f\terrain_rock_bm_52.nif                                    28K  39K
+        meshes\f\terrain_rock_bm_53.nif                                    30K  15K
+        meshes\f\terrain_rock_bm_54.nif                                    29K  41K
+        meshes\f\terrain_rock_bm_56.nif                                    23K   8K
+        meshes\f\terrain_rock_bm_57.nif                                    26K   8K
+        meshes\f\terrain_rock_bm_59.nif                                    33K  27K
+        meshes\f\terrain_rock_bm_60.nif                                    26K  32K
+        meshes\f\terrain_rock_bm_61.nif                                    30K  25K
+        meshes\f\terrain_rock_bm_62.nif                                    29K  34K
+        [...]
+    Connary's Textures Pack Full.7z                                                  1.05  1.03    1.27     2.75  1111  322M
+        meshes\x\terrain_rock_ma_53.nif                                    35K   6K
+        textures\tx_bc_rock_03.dds                                        699K   1M
+        textures\tx_bc_rock_04.dds                                        699K 699K
+        textures\tx_gl_rock_03.dds                                        699K 699K
+        textures\tx_ma_lava05.dds                                         699K 699K
+        textures\tx_ma_rock04.dds                                         699K 699K
+        textures\tx_ma_rock04a.dds                                        699K 699K
+        textures\tx_rock_wg_01.dds                                        699K 699K
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.34  1.26    1.16    36.82   854  242M
+        textures\tx_bc_rock_03.dds                                        699K 699K
+        textures\tx_bc_rock_04.dds                                        699K 174K
+        textures\tx_gl_rock_03.dds                                        699K 174K
+        textures\tx_ma_lava.dds                                           699K 174K
+        textures\tx_ma_lava05.dds                                         699K 174K
+        textures\tx_ma_lava05a.dds                                        699K 349K
+        textures\tx_ma_lava06a.dds                                        699K 699K
+        textures\tx_ma_rock04a.dds                                        699K 699K
+        textures\tx_ma_sulphur_rock07a.dds                                699K 174K
+        textures\tx_rock_grey_01.dds                                      699K 699K
+        textures\tx_rock_wg_01.dds                                        699K 699K
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              1.00  0.92    0.62     1.14   156  144M
+        textures\tx_ma_lava05.dds                                         699K 699K
+        textures\tx_ma_lava05a.dds                                        699K 699K
+        textures\tx_ma_lava06a.dds                                        699K 699K
+    Slartibartfast's Mesh Fix 1.2.7z                                                 1.63  1.02    0.57     1.71   124    4M
+        meshes\f\terrain_rocks_gl_02.nif                                   63K  19K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Vality's Ice Caverns Enhanced.7z                                                                                    78    2M
+    Lougian's Bloodmoon Caverns Bump Mapped 1.0.7z                                   0.99  0.80    1.33     1.06   169   82M
+        meshes\i\bm_ic_3way.nif                                            31K  31K
+        meshes\i\bm_ic_4way.nif                                            35K  36K
+        meshes\i\bm_ic_cavern_01.nif                                       40K  41K
+        meshes\i\bm_ic_cavern_01_01.nif                                    10K  10K
+        meshes\i\bm_ic_cavern_01_02.nif                                    23K  24K
+        meshes\i\bm_ic_cavern_01_03.nif                                    22K  22K
+        meshes\i\bm_ic_cavern_02.nif                                       44K  45K
+        meshes\i\bm_ic_cavern_03.nif                                       28K  29K
+        meshes\i\bm_ic_cavern_03_01.nif                                    20K  20K
+        meshes\i\bm_ic_cavern_03_02.nif                                    13K  13K
+        meshes\i\bm_ic_cavern_03_03.nif                                    12K  12K
+        meshes\i\bm_ic_cavern_03_04.nif                                    16K  16K
+        meshes\i\bm_ic_cavern_04.nif                                       39K  39K
+        meshes\i\bm_ic_cavern_04_02.nif                                    20K  20K
+        meshes\i\bm_ic_end.nif                                             29K  30K
+        meshes\i\bm_ic_exit_01.nif                                         33K  34K
+        meshes\i\bm_ic_exit_02.nif                                         28K  28K
+        meshes\i\bm_ic_gorge.nif                                           51K  52K
+        meshes\i\bm_ic_gorge02.nif                                         63K  64K
+        meshes\i\bm_ic_icicle_01.nif                                        2K   2K
+        [...]
+    Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z                             1.01  1.06    1.44     1.54   210   70M
+        meshes\i\bm_ic_cavern_01.nif                                       40K  40K
+        meshes\i\bm_ic_cavern_01_01.nif                                    10K   9K
+        meshes\i\bm_ic_room02_entrance.nif                                 20K  20K
+        meshes\i\bm_ic_type02_exit_01.nif                                  29K  28K
+        meshes\i\bm_ic_type02_exit_03.nif                                  29K  29K
+Vurt's AI II 1.01 and Vality's 2.0 AI.7z                                                                            24   15M
+    Vurt's Leafy West Gash II 2.0a.7z                                                1.00  0.97    1.68     1.63    99   29M
+        textures\vurt_oakbark03.dds                                       699K 699K
+Vurt's Lava and Smoke 1.1.7z                                                                                        10   12M
+    FIM's Better Spell Effects.7z                                                    1.78  0.95    2.36     3.57   103   10M
+        textures\vfx_smokegreen.dds                                       349K  87K
+    Connary's Textures Pack Full.7z                                                  1.34  1.12    5.65     7.97  1111  322M
+        textures\tx_lava_crust.dds                                          5M   1M
+        textures\tx_lava_molten.dds                                         1M   1M
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.00  1.34    5.13    68.71   854  242M
+        textures\tx_lava_molten.dds                                         1M   1M
+Vurt's Solstheim Tree Replacer II 1.03.7z                                                                           34   42M
+    Vurt's Leafy West Gash II 2.0a.7z                                                1.00  0.97    1.48     1.44    99   29M
+        textures\vurt_bluesprucebark.dds                                  699K 699K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Alaisiagae's Soulgem Ingredient Retexture 3.0.7z                                                                    55    5M
+    Morrowind Patch Project 1.6.5 Beta (BTB Edit).7z                                 0.72  0.99    0.95     7.24    48    7M
+        meshes\n\ingred_raw_adam.nif                                        1K   3K
+    Darknut's Creature Textures 512.7z                                               3.17  1.06    2.23     5.92   486   33M
+        textures\flameeye.dds                                              87K  11K
+        textures\tx_kwamaegg_gold_01.dds                                  349K  11K
+    Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z                             0.75  0.87    1.64     1.13   210   70M
+        textures\boarleather.dds                                           43K  87K
+Armed Defender's Mesh Improvements 1.7.1.7z                                                                        177   27M
+    Qarl's Misc Items Replacer.7z                                                    1.72  1.27    0.96     1.88   157   19M
+        meshes\m\misc_com_plate_01.nif                                     76K  10K
+        meshes\m\misc_com_plate_02.nif                                     76K  10K
+        meshes\m\misc_com_plate_03.nif                                     75K  17K
+        meshes\m\misc_com_plate_04.nif                                     76K  17K
+        meshes\m\misc_com_plate_05.nif                                     76K  11K
+        meshes\m\misc_com_plate_06.nif                                     75K  11K
+        meshes\m\misc_com_plate_07.nif                                     84K  11K
+        meshes\m\misc_com_plate_08.nif                                     46K   6K
+        meshes\m\misc_com_wood_bowl_05.nif                                107K  47K
+        meshes\m\misc_de_goblet_01.nif                                    158K  64K
+        meshes\m\misc_de_goblet_02.nif                                    143K 107K
+        meshes\m\misc_de_goblet_03.nif                                    158K  31K
+        meshes\m\misc_de_goblet_04.nif                                    158K  63K
+        meshes\m\misc_de_goblet_05.nif                                    158K  63K
+        meshes\m\misc_de_goblet_06.nif                                    143K 107K
+        meshes\m\misc_de_goblet_07.nif                                    143K 107K
+        meshes\m\misc_de_goblet_08.nif                                    158K  31K
+        meshes\m\misc_de_goblet_09.nif                                    158K  31K
+        meshes\m\misc_de_pitcher_01.nif                                   151K 122K
+        meshes\m\misc_dwrv_artifact50.nif                                 135K  44K
+        [...]
+    Connary's Textures Pack Full.7z                                                  2.15  1.18    1.96     4.27  1111  322M
+        meshes\m\misc_com_plate_01.nif                                     76K  10K
+        meshes\m\misc_com_plate_02.nif                                     76K  10K
+        meshes\m\misc_com_plate_03.nif                                     75K  17K
+        meshes\m\misc_com_plate_04.nif                                     76K  17K
+        meshes\m\misc_com_plate_05.nif                                     76K  11K
+        meshes\m\misc_com_plate_06.nif                                     75K  11K
+        meshes\m\misc_com_plate_07.nif                                     84K  11K
+        meshes\m\misc_com_plate_08.nif                                     46K   6K
+    Slartibartfast's Mesh Fix 1.2.7z                                                 1.39  0.94    0.88     1.07   124    4M
+        meshes\f\furn_com_cauldron_01.nif                                 255K  80K
+        meshes\f\furn_com_cauldron_02.nif                                 313K 203K
+        meshes\f\furn_com_lantern_hook.nif                                111K  36K
+        meshes\f\furn_com_lantern_hook_02.nif                             111K  36K
+        meshes\f\furn_cushion_round_01.nif                                 55K  36K
+        meshes\f\furn_cushion_round_02.nif                                 55K  36K
+        meshes\f\furn_cushion_round_03.nif                                 55K  36K
+        meshes\f\furn_cushion_round_04.nif                                 55K  36K
+        meshes\f\furn_cushion_round_05.nif                                 55K  36K
+        meshes\f\furn_cushion_round_06.nif                                 55K  36K
+        meshes\f\furn_cushion_round_07.nif                                 55K  36K
+        meshes\f\furn_dwrv_bed00.nif                                      736K  49K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Earth Wyrm's Souly Soulgems 1.1.1.7z                                                                                27    1M
+    Alaisiagae's Ultimate Icon Replacer.7z                                           0.78  0.97    3.84     3.07  1051    1M
+        icons\m\tx_soulgem_common.dds                                     640o   1K
+        icons\m\tx_soulgem_grand.dds                                      640o   1K
+        icons\m\tx_soulgem_greater.dds                                    640o   1K
+        icons\m\tx_soulgem_lesser.dds                                     640o   1K
+        icons\m\tx_soulgem_petty.dds                                      640o   1K
+        icons\w\tx_art_azura_star.dds                                     640o   1K
+Illy's Dirty Books.7z                                                                                              233   54M
+    Alaisiagae's Ultimate Icon Replacer.7z                                           1.04  1.06    1.74     1.91  1051    1M
+        icons\m\tx_book_01.dds                                              1K   1K
+        icons\m\tx_book_02.dds                                              1K   1K
+        icons\m\tx_book_03.dds                                              1K   1K
+        icons\m\tx_book_04.dds                                              1K   1K
+        icons\m\tx_book_open_02.dds                                         1K   1K
+        icons\m\tx_book_open_03.dds                                         1K   1K
+        icons\m\tx_folio_01.dds                                             1K   1K
+        icons\m\tx_folio_02.dds                                             1K   1K
+        icons\m\tx_folio_03.dds                                             1K   1K
+        icons\m\tx_folio_04.dds                                             1K   1K
+        icons\m\tx_folio_open_01.dds                                        1K   1K
+        icons\m\tx_folio_open_02.dds                                        1K   1K
+        icons\m\tx_folio_open_03.dds                                        1K   1K
+        icons\m\tx_folio_open_04.dds                                        1K   1K
+        icons\m\tx_note_01.dds                                              1K   1K
+        icons\m\tx_note_02.dds                                              1K   1K
+        icons\m\tx_octavo_01.dds                                            1K   1K
+        icons\m\tx_octavo_02.dds                                            1K   1K
+        icons\m\tx_octavo_03.dds                                            1K   1K
+        icons\m\tx_octavo_04.dds                                            1K   1K
+        [...]
+    Connary's Textures Pack Full.7z                                                  1.24  1.26    1.78     2.66  1111  322M
+        textures\tx_book_01.dds                                           699K 349K
+        textures\tx_book_02.dds                                           699K 349K
+        textures\tx_book_03.dds                                           699K 349K
+        textures\tx_book_04.dds                                           699K 349K
+        textures\tx_book_05.dds                                           699K 349K
+        textures\tx_book_06.dds                                           349K 349K
+        textures\tx_book_07.dds                                           699K 349K
+        textures\tx_book_08.dds                                           699K 349K
+        textures\tx_book_09.dds                                           699K 349K
+        textures\tx_book_10.dds                                           699K 349K
+        textures\tx_book_11.dds                                           699K 349K
+        textures\tx_book_12.dds                                           699K 349K
+        textures\tx_book_13.dds                                           349K 349K
+        textures\tx_book_14.dds                                           699K 349K
+        textures\tx_book_15.dds                                           699K 349K
+        textures\tx_book_16.dds                                           699K 349K
+        textures\tx_book_edge_01.dds                                       87K  43K
+        textures\tx_book_edge_02.dds                                       87K  43K
+        textures\tx_book_pages_01.dds                                     699K 349K
+        textures\tx_book_pages_02.dds                                     699K 349K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  3.99  1.48    1.61    72.31   854  242M
+        textures\tx_book_01.dds                                           699K  21K
+        textures\tx_book_02.dds                                           699K  21K
+        textures\tx_book_03.dds                                           699K  21K
+        textures\tx_book_04.dds                                           699K  21K
+        textures\tx_book_05.dds                                           699K  21K
+        textures\tx_book_06.dds                                           349K  21K
+        textures\tx_book_07.dds                                           699K  21K
+        textures\tx_book_08.dds                                           699K  21K
+        textures\tx_book_09.dds                                           699K  21K
+        textures\tx_book_10.dds                                           699K  21K
+        textures\tx_book_11.dds                                           699K  21K
+        textures\tx_book_12.dds                                           699K  21K
+        textures\tx_book_13.dds                                           349K  21K
+        textures\tx_book_14.dds                                           699K  21K
+        textures\tx_book_15.dds                                           699K  21K
+        textures\tx_book_16.dds                                           699K  21K
+        textures\tx_book_edge_01.dds                                       87K  11K
+        textures\tx_book_edge_02.dds                                       87K  11K
+        textures\tx_book_pages_01.dds                                     699K  21K
+        textures\tx_book_pages_02.dds                                     699K  21K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Painkiller Rider's Shiny Septims.7z                                                                                 10    1M
+    Alaisiagae's Ultimate Icon Replacer.7z                                           1.00  0.89    5.53     4.94  1051    1M
+        icons\m\tx_gold_001.dds                                             1K   1K
+    Armed Defender's Mesh Improvements 1.7.1.7z                                      1.19  0.94    2.88     3.11   177   27M
+        meshes\m\gold_001.nif                                               9K  26K
+        meshes\m\gold_005.nif                                              37K  25K
+        meshes\m\gold_010.nif                                              72K  25K
+        meshes\m\gold_025.nif                                             179K  73K
+        meshes\m\gold_100.nif                                             719K 316K
+    Morrowind Visual Pack 3.0RC1.7z                                                  0.89  1.25    5.13    58.47   854  242M
+        icons\m\tx_gold_001.dds                                             1K   1K
+Petethegoat's Moon Sugar Replacer.7z                                                                                 2   39K
+    Alaisiagae's Soulgem Ingredient Retexture 3.0.7z                                 0.42  1.11    3.38     1.88    55    5M
+        textures\tx_moon_sugar_01.dds                                      11K  87K
+Qarl's Bottle Replacer.7z                                                                                           25    1M
+    Morrowind Visual Pack 3.0RC1.7z                                                  0.89  1.02    3.66    33.91   854  242M
+        textures\tx_glass_bottle_blue.dds                                  16K  21K
+        textures\tx_glass_bottle_blue_01.dds                               16K  21K
+Qarl's Misc Items Replacer.7z                                                                                      157   19M
+    Connary's Textures Pack Full.7z                                                  1.00  0.89    2.05     1.83  1111  322M
+        meshes\m\misc_com_plate_01.nif                                     10K  10K
+        meshes\m\misc_com_plate_02.nif                                     10K  10K
+        meshes\m\misc_com_plate_03.nif                                     17K  17K
+        meshes\m\misc_com_plate_04.nif                                     17K  17K
+        meshes\m\misc_com_plate_05.nif                                     11K  11K
+        meshes\m\misc_com_plate_06.nif                                     11K  11K
+        meshes\m\misc_com_plate_07.nif                                     11K  11K
+        meshes\m\misc_com_plate_08.nif                                      6K   6K
+Connary's Textures Pack Full.7z                                                                                   1111  322M
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.28  1.20    0.91    13.31   854  242M
+        textures\tx_ar_edge_01.dds                                        699K 174K
+        textures\tx_ar_edge_01a.dds                                       699K 174K
+        textures\tx_ar_outeredge_01.dds                                   349K  87K
+        textures\tx_ar_rib_01.dds                                         699K 174K
+        textures\tx_ar_rib_01a.dds                                        699K 174K
+        textures\tx_ar_rib_01b.dds                                        699K 174K
+        textures\tx_ar_shell_01.dds                                       699K 174K
+        textures\tx_ar_spots_01.dds                                       699K 174K
+        textures\tx_banner_redoran_01.dds                                 174K 174K
+        textures\tx_bark_01.dds                                           174K 174K
+        textures\tx_bark_02.dds                                           174K 699K
+        textures\tx_bark_04.dds                                           699K 699K
+        textures\tx_bark_05.dds                                           174K 174K
+        textures\tx_bark_06.dds                                           174K 174K
+        textures\tx_bc_bank.dds                                           699K 699K
+        textures\tx_bc_bark_01.dds                                        699K 699K
+        textures\tx_bc_bark_02.dds                                        699K 699K
+        textures\tx_bc_bark_03.dds                                          1M 699K
+        textures\tx_bc_bark_04.dds                                        349K 174K
+        textures\tx_bc_dirt.dds                                           699K 699K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+AOF's Containers 1024.7z                                                                                             8  847K
+    Armed Defender's Mesh Improvements 1.7.1.7z                                      0.42  1.03    3.12     1.61   177   27M
+        meshes\f\furn_com_kegstand.nif                                     52K 313K
+        meshes\m\misc_com_bucket_01.nif                                     9K 211K
+        meshes\o\contain_barrel10.nif                                      32K 150K
+        meshes\o\contain_barrel_01.nif                                     32K 200K
+    Morrowind Visual Pack 3.0RC1.7z                                                  0.65  1.35    5.57    53.17   854  242M
+        textures\tx_canvaswrap_01.dds                                     174K 699K
+        textures\tx_rope_heavy_01.dds                                      10K  22K
+    Tarius' Better Meshes plus Optimization 1.11.7z                                  0.85  0.92    1.96     1.59    50    6M
+        meshes\o\contain_barrel10.nif                                      32K  49K
+        meshes\o\contain_barrel_01.nif                                     32K  44K
+Alaisiagae's Sail Cloth Retexture Normal.7z                                                                          8    7M
+    MGE XE Data 0.9.10.7z                                                            1.05  0.98    1.99     2.02    52    2M
+        meshes\x\ex_longboat01.nif                                        209K 185K
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              1.00  0.99    2.98     2.96   156  144M
+        meshes\x\ex_longboat01.nif                                        209K 209K
+    Slartibartfast's Mesh Fix 1.2.7z                                                 0.98  0.97    2.74     2.59   124    4M
+        meshes\x\ex_longboat01.nif                                        209K 222K
+Bart Notelaers' Unique 1.11 and Linora's Refined 2.0 Banners and Signs.7z                                          100    8M
+    Connary's Textures Pack Full.7z                                                  1.00  1.06    2.42     2.57  1111  322M
+        textures\tx_banner_redoran_01.dds                                 174K 174K
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.00  1.30    2.20    28.56   854  242M
+        textures\tx_banner_dagoth_01.dds                                  174K 174K
+        textures\tx_banner_gnisis_01.dds                                  174K 174K
+        textures\tx_banner_gnisis_02.dds                                  174K 174K
+        textures\tx_banner_hlaalu_01.dds                                  174K 174K
+        textures\tx_banner_redoran_01.dds                                 174K 174K
+        textures\tx_de_banner_ald_velothi.dds                             174K 174K
+        textures\tx_de_banner_book_01.dds                                 174K 174K
+        textures\tx_de_banner_gnaar_mok.dds                               174K 174K
+        textures\tx_de_banner_hla_oad.dds                                 174K 174K
+        textures\tx_de_banner_khull.dds                                   174K 174K
+        textures\tx_de_banner_pawn_01.dds                                 174K 174K
+        textures\tx_de_banner_sadrith_mora.dds                            174K 174K
+        textures\tx_de_banner_tel_aruhn.dds                               174K 174K
+        textures\tx_de_banner_tel_branora.dds                             174K 174K
+        textures\tx_de_banner_tel_fyr.dds                                 174K 174K
+        textures\tx_de_banner_tel_mora.dds                                174K 174K
+        textures\tx_de_banner_tel_vos.dds                                 174K 174K
+        textures\tx_de_banner_telvani_01.dds                              174K 174K
+        textures\tx_de_banner_vos.dds                                     174K 174K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Djangos' Rugs and Tapestries 1.3 (MYM'sel).7z                                                                       27   15M
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.13  1.41    3.56    55.28   854  242M
+        textures\tx_de_tapestry_02.dds                                    699K 174K
+        textures\tx_de_tapestry_03.dds                                    699K 349K
+        textures\tx_de_tapestry_04.dds                                    699K 349K
+        textures\tx_de_tapestry_05.dds                                    699K 349K
+        textures\tx_de_tapestry_06.dds                                    699K 349K
+        textures\tx_de_tapestry_07.dds                                    699K 699K
+        textures\tx_de_tapestry_08.dds                                    699K 699K
+        textures\tx_de_tapestry_09.dds                                    699K 699K
+        textures\tx_de_tapestry_10.dds                                    699K 699K
+        textures\tx_de_tapestry_11.dds                                    699K 174K
+        textures\tx_de_tapestry_12.dds                                    699K 349K
+        textures\tx_de_tapestry_13.dds                                    699K 699K
+        textures\tx_fabric_tapestry.dds                                   699K 349K
+        textures\tx_fabric_tapestry_01.dds                                699K 349K
+        textures\tx_fabric_tapestry_02.dds                                699K 699K
+        textures\tx_fabric_tapestry_03.dds                                699K 174K
+        textures\tx_fabric_tapestry_04.dds                                699K 699K
+        textures\tx_rug00.dds                                             699K 349K
+        textures\tx_rug_02.dds                                            699K 349K
+        textures\tx_rug_03.dds                                            349K 699K
+        [...]
+    Nangsid's Taps and Rugs (MYM'sel).7z                                             1.29  1.19    1.34     1.95    60   29M
+        textures\tx_de_tapestry_02.dds                                    699K 349K
+        textures\tx_de_tapestry_03.dds                                    699K 699K
+        textures\tx_de_tapestry_04.dds                                    699K 699K
+        textures\tx_de_tapestry_05.dds                                    699K 699K
+        textures\tx_de_tapestry_06.dds                                    699K 699K
+        textures\tx_de_tapestry_07.dds                                    699K 699K
+        textures\tx_de_tapestry_08.dds                                    699K 699K
+        textures\tx_de_tapestry_09.dds                                    699K 699K
+        textures\tx_de_tapestry_10.dds                                    699K 349K
+        textures\tx_de_tapestry_11.dds                                    699K 699K
+        textures\tx_de_tapestry_12.dds                                    699K 349K
+        textures\tx_de_tapestry_13.dds                                    699K 349K
+        textures\tx_fabric_tapestry.dds                                   699K 349K
+        textures\tx_fabric_tapestry_01.dds                                699K 699K
+        textures\tx_fabric_tapestry_02.dds                                699K 349K
+        textures\tx_fabric_tapestry_03.dds                                699K 349K
+        textures\tx_fabric_tapestry_04.dds                                699K 349K
+        textures\tx_rug00.dds                                             699K 174K
+        textures\tx_rug_02.dds                                            699K 174K
+        textures\tx_rug_03.dds                                            349K 349K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Nangsid's Taps and Rugs (MYM'sel).7z                                                                                60   29M
+    Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z                             2.16  0.83    1.58     2.42   210   70M
+        textures\tx_s_tapestry01.dds                                      699K  87K
+        textures\tx_s_tapestry02.dds                                      349K  87K
+        textures\tx_s_tapestry03.dds                                      699K  87K
+    Morrowind Visual Pack 3.0RC1.7z                                                  0.93  1.19    2.65    29.74   854  242M
+        textures\tx_c_t_lady_01.dds                                       699K 349K
+        textures\tx_c_t_lover_01.dds                                      699K 349K
+        textures\tx_c_t_steed_01.dds                                      699K 349K
+        textures\tx_de_tapestry_02.dds                                    349K 174K
+        textures\tx_de_tapestry_03.dds                                    699K 349K
+        textures\tx_de_tapestry_04.dds                                    699K 349K
+        textures\tx_de_tapestry_05.dds                                    699K 349K
+        textures\tx_de_tapestry_06.dds                                    699K 349K
+        textures\tx_de_tapestry_07.dds                                    699K 699K
+        textures\tx_de_tapestry_08.dds                                    699K 699K
+        textures\tx_de_tapestry_09.dds                                    699K 699K
+        textures\tx_de_tapestry_10.dds                                    349K 699K
+        textures\tx_de_tapestry_11.dds                                    699K 174K
+        textures\tx_de_tapestry_12.dds                                    349K 349K
+        textures\tx_de_tapestry_13.dds                                    349K 699K
+        textures\tx_fabric_imp_altar_01.dds                               699K 349K
+        textures\tx_fabric_tan_02.dds                                     349K 349K
+        textures\tx_fabric_tapestry.dds                                   349K 349K
+        textures\tx_fabric_tapestry_01.dds                                699K 349K
+        textures\tx_fabric_tapestry_02.dds                                349K 699K
+        [...]
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              1.00  0.84    1.42     1.19   156  144M
+        textures\tx_fabric_imp_altar_01.dds                               699K 699K
+Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                                                                156  144M
+    Darknut's Creature Textures 512.7z                                               2.89  1.18    1.52     4.19   486   33M
+        textures\tx_guarskin_hut_03.dds                                     1M 174K
+        textures\tx_siltstrider_skin_01.dds                                 1M 174K
+        textures\tx_siltstrider_skin_03.dds                                 1M  43K
+    Connary's Textures Pack Full.7z                                                  1.36  1.14    2.06     3.01  1111  322M
+        meshes\x\ex_dae_ruin_entry.max.nif                                104K 114K
+        textures\tx_bark_01.dds                                           174K 174K
+        textures\tx_bc_bank.dds                                           699K 699K
+        textures\tx_bc_dirt.dds                                           699K 699K
+        textures\tx_bc_grass.dds                                            2M   1M
+        textures\tx_bc_mainroad_01.dds                                      2M   1M
+        textures\tx_bc_muck.dds                                           699K 699K
+        textures\tx_bc_muck_01.dds                                        699K 699K
+        textures\tx_bc_mud.dds                                              2M 699K
+        textures\tx_bc_rockyscrub.dds                                       2M   1M
+        textures\tx_bc_scrub.dds                                          699K 699K
+        textures\tx_bc_scum.dds                                             5M 699K
+        textures\tx_bc_undergrowth.dds                                      2M 699K
+        textures\tx_cork_bulb_01.dds                                        1M 174K
+        textures\tx_cork_bulb_02.dds                                      699K 174K
+        textures\tx_emperor_parasol_01.dds                                  5M 699K
+        textures\tx_emperor_parasol_03.dds                                262K  43K
+        textures\tx_gl_dirt_grass_02.dds                                    1M 699K
+        textures\tx_gl_grass_01.dds                                       699K 699K
+        textures\tx_gl_grass_12.dds                                       699K 699K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  1.38  1.36    1.87    32.78   854  242M
+        textures\tx_ac_dirt_grass_02.dds                                  699K 699K
+        textures\tx_ac_scrubplain_01.dds                                  699K 699K
+        textures\tx_ai_dirtpatch_01.dds                                     1M 699K
+        textures\tx_ai_grass_dirt_01.dds                                    1M 699K
+        textures\tx_ai_mainroad_01.dds                                      1M   1M
+        textures\tx_ai_mudflats_01.dds                                    699K 699K
+        textures\tx_ai_tilled_dirt_01.dds                                   1M 699K
+        textures\tx_ashlands_07.dds                                       699K 699K
+        textures\tx_ashlands_08.dds                                         1M 699K
+        textures\tx_ashlands_road_01.dds                                    1M 699K
+        textures\tx_bark_01.dds                                           174K 174K
+        textures\tx_bc_bank.dds                                           699K 699K
+        textures\tx_bc_dirt.dds                                           699K 699K
+        textures\tx_bc_grass.dds                                            2M 699K
+        textures\tx_bc_mainroad_01.dds                                      2M 699K
+        textures\tx_bc_muck.dds                                           699K 699K
+        textures\tx_bc_muck_01.dds                                        699K 699K
+        textures\tx_bc_mud.dds                                              2M 699K
+        textures\tx_bc_rockyscrub.dds                                       2M 174K
+        textures\tx_bc_scrub.dds                                          699K 174K
+        [...]
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Slartibartfast's Mesh Fix 1.2.7z                                                                                   124    4M
+    Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z                             1.00  0.99    1.21     1.20   210   70M
+        meshes\f\furn_s_tapestry03.nif                                     16K  16K
+        meshes\x\ex_s_smith_shed.nif                                       26K  26K
+    Connary's Textures Pack Full.7z                                                  0.65  1.20    2.24     1.90  1111  322M
+        meshes\x\ex_daed_pillar_claw_01.nif                                 9K  17K
+        textures\tx_bark_01.dds                                            43K 174K
+    Morrowind Visual Pack 3.0RC1.7z                                                  0.56  1.47    2.03    18.78   854  242M
+        textures\tx_bark_01.dds                                            43K 174K
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              0.91  1.06    1.09     1.07   156  144M
+        meshes\x\ex_dae_ruin_04.nif                                        95K  96K
+        meshes\x\ex_longboat.nif                                          181K 199K
+        meshes\x\ex_longboat01.nif                                        222K 209K
+        meshes\x\ex_longboat02.nif                                        214K 204K
+        meshes\x\ex_longboatwrk.nif                                       168K 168K
+        textures\tx_bark_01.dds                                            43K 174K
+Slartibartfast's Smoother Meshes.7z                                                                                 12  749K
+    Biont's Telvanni Bump Maps 1.1.7z                                                1.01  0.99    2.23     2.22   106   22M
+        meshes\f\flora_emp_parasol_01.nif                                 104K  87K
+        meshes\f\flora_emp_parasol_02.nif                                 147K 126K
+        meshes\f\flora_emp_parasol_03.nif                                 122K 106K
+        meshes\x\ex_t_pole_hooked.nif                                      28K  28K
+        meshes\x\flora_t_mushroom_01.nif                                   77K  78K
+        meshes\x\flora_t_mushroom_02.nif                                   61K  61K
+        meshes\x\flora_t_podbud_01.nif                                     28K  28K
+        meshes\x\flora_t_podbud_02.nif                                     27K  28K
+        meshes\x\flora_t_podbud_03.nif                                     27K  28K
+        meshes\x\flora_t_podbud_04.nif                                     28K  28K
+        meshes\x\flora_t_shelffungus_01.nif                                33K  34K
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              1.92  1.13    2.57     4.89   156  144M
+        meshes\f\flora_emp_parasol_01.nif                                 104K  22K
+        meshes\f\flora_emp_parasol_02.nif                                 147K  29K
+        meshes\f\flora_emp_parasol_03.nif                                 122K  25K
+    Slartibartfast's Mesh Fix 1.2.7z                                                 1.76  1.01    2.36     3.75   124    4M
+        meshes\x\ex_t_pole_hooked.nif                                      28K   7K
+    Tarius' Better Meshes plus Optimization 1.11.7z                                  1.05  1.01    1.69     1.77    50    6M
+        meshes\f\furn_de_forge_01.nif                                      61K  54K
+Tarius' Better Kegstands 1.1.7z                                                                                      3    2M
+    Armed Defender's Mesh Improvements 1.7.1.7z                                      0.51  1.04    4.48     2.74   177   27M
+        meshes\f\furn_com_kegstand.nif                                     63K 313K
+        meshes\f\furn_de_kegstand.nif                                      63K 312K
+    Connary's Textures Pack Full.7z                                                  3.18  1.58    8.79    34.94  1111  322M
+        textures\tx_wood_oldwood_metal.dds                                  2M 174K
+    Morrowind Visual Pack 3.0RC1.7z                                                  3.18  1.41    7.98   283.91   854  242M
+        textures\tx_wood_oldwood_metal.dds                                  2M 174K
+    AOF's Containers 1024.7z                                                         1.08  1.05    1.43     1.61     8  847K
+        meshes\f\furn_com_kegstand.nif                                     63K  52K
+----------------------------------------------------------------------------------------------------------------------------
+Mod Filenames and Overlapping Files                                        FS1  FS2   NSR   NTR     FCR    Score    FC  Size
+----------------------------------------------------------------------------------------------------------------------------
+Tarius' Better Meshes plus Optimization 1.11.7z                                                                     50    6M
+    Armed Defender's Mesh Improvements 1.7.1.7z                                      0.69  1.08    1.59     1.28   177   27M
+        meshes\f\furn_ashpit_01.nif                                        31K 110K
+        meshes\f\furn_ashpit_02.nif                                        31K 110K
+        meshes\f\furn_com_barstool.nif                                     24K  51K
+        meshes\f\furn_com_cauldron_01.nif                                  80K 255K
+        meshes\f\furn_com_cauldron_02.nif                                 203K 313K
+        meshes\f\furn_com_lantern_hook.nif                                 38K 111K
+        meshes\f\furn_com_lantern_hook_02.nif                              38K 111K
+        meshes\f\furn_com_planter.nif                                      50K 144K
+        meshes\f\furn_com_stool_02.nif                                     43K 160K
+        meshes\f\furn_com_table_03.nif                                     31K  27K
+        meshes\f\furn_com_table_05.nif                                     25K  87K
+        meshes\f\furn_cushion_round_01.nif                                 35K  55K
+        meshes\f\furn_cushion_round_02.nif                                 35K  55K
+        meshes\f\furn_cushion_round_03.nif                                 35K  55K
+        meshes\f\furn_cushion_round_04.nif                                 35K  55K
+        meshes\f\furn_cushion_round_05.nif                                 35K  55K
+        meshes\f\furn_cushion_round_06.nif                                 35K  55K
+        meshes\f\furn_cushion_round_07.nif                                 35K  55K
+        meshes\f\furn_de_chair_03.nif                                      81K 410K
+        meshes\f\furn_de_stool_01.nif                                      43K 101K
+        [...]
+    Morrowind Visual Pack 3.0RC1.7z                                                  2.49  1.46    2.84    86.22   854  242M
+        textures\tx_glass_de_01.dds                                       174K  11K
+        textures\tx_glass_de_02.dds                                       174K  11K
+        textures\tx_glass_de_top_01.dds                                    43K  11K
+        textures\tx_glass_de_top_02.dds                                    43K  11K
+        textures\tx_marshmerrow_03.dds                                      1M 349K
+        textures\tx_rope_heavy.dds                                        699K  22K
+    Papill6n's Various Graphics Things 1.2 (MYM'sel).7z                              1.47  1.04    1.52     2.16   156  144M
+        meshes\f\furn_kneeling_stool_01.nif                                19K  52K
+        textures\tx_fabric_com_chair.dds                                  699K   1M
+        textures\tx_rope_heavy.dds                                        699K  10K
+    Slartibartfast's Mesh Fix 1.2.7z                                                 1.00  1.03    1.40     1.44   124    4M
+        meshes\f\furn_com_cauldron_01.nif                                  80K  80K
+        meshes\f\furn_com_cauldron_02.nif                                 203K 203K
+        meshes\f\furn_com_lantern_hook.nif                                 38K  36K
+        meshes\f\furn_com_lantern_hook_02.nif                              38K  36K
+        meshes\f\furn_cushion_round_01.nif                                 35K  36K
+        meshes\f\furn_cushion_round_02.nif                                 35K  36K
+        meshes\f\furn_cushion_round_03.nif                                 35K  36K
+        meshes\f\furn_cushion_round_04.nif                                 35K  36K
+        meshes\f\furn_cushion_round_05.nif                                 35K  36K
+        meshes\f\furn_cushion_round_06.nif                                 35K  36K
+        meshes\f\furn_cushion_round_07.nif                                 35K  36K

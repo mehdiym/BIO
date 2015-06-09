@@ -1,0 +1,13 @@
+Objective Install Order, run on Wed Nov 19 17:43:10 2014
+	- Found 223 module archives.
+	- Found 90 overlapping module archives.
+Now dealing with non overlapping mods.
+	- Process time: 3.76s
+
+IMPORTANT: You REALLY should consult the file 'C:\Morrowind\BIO 0.1\out\disk_operations.txt' which details the disk operations that are going to be done.
+
+You can get a visual representation of mod precedenceby opening the file 'C:\Morrowind\BIO 0.1\out\overlaps.pdf'
+
+Type 'yes' + Enter to start disk operations.
+
+Operations done!

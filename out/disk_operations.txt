@@ -1,0 +1,229 @@
+Your mod archives will be copied from
+    c:\Morro\    
+to
+    c:\Morrowind\Installers\
+as follow:
+
+Contents\Audio\BTB & Xiran's Better Music System Data.7z    ->    BTB & Xiran's Better Music System Data.7z
+Contents\Audio\BTB & Xiran's Better Music System.7z    ->    BTB & Xiran's Better Music System.7z
+Contents\Audio\Lendrik's Almalexia Greetings.7z    ->    Lendrik's Almalexia Greetings.7z
+Contents\Audio\Lucypher's Magic Sound Effects Replacement.7z    ->    Lucypher's Magic Sound Effects Replacement.7z
+Contents\Audio\MrTS' Vivec Voice Add-on.7z    ->    MrTS' Vivec Voice Add-on.7z
+Contents\Audio\Nasty Cammona Tong.7z    ->    Nasty Cammona Tong.7z
+Contents\Audio\Piratelord's Expanded Sounds 1.3.7z    ->    Piratelord's Expanded Sounds 1.3.7z
+Contents\Audio\Skydiver's Almalexia Voice Add-on.7z    ->    Skydiver's Almalexia Voice Add-on.7z
+Contents\Audio\Skydiver's Barilzar Voice Add-on.7z    ->    Skydiver's Barilzar Voice Add-on.7z
+Contents\Creatures\Antares' Creatures.7z    ->    Antares' Creatures.7z
+Contents\Creatures\Antares' Living Statues of Malacath 1.3.7z    ->    Antares' Living Statues of Malacath 1.3.7z
+Contents\Creatures\Danjb's Deadly Dagoths.7z    ->    Danjb's Deadly Dagoths.7z
+Contents\Creatures\Demon Xen's Creatures (MYM edit).7z    ->    Demon Xen's Creatures (MYM edit).7z
+Contents\Creatures\Guars119-43008-1-19.7z    ->    Guars119-43008-1-19.7z
+Contents\Creatures\Melchior's Atronach Expansion 2.12.7z    ->    Melchior's Atronach Expansion 2.12.7z
+Contents\Creatures\Melchior's Dire Flame Atronachs.7z    ->    Melchior's Dire Flame Atronachs.7z
+Contents\Creatures\Midgetalien's Goblin Shaman.7z    ->    Midgetalien's Goblin Shaman.7z
+Contents\Creatures\abot's Guars 1.19.7z    ->    abot's Guars 1.19.7z
+Contents\Dungeons\Bethesda's Siege at Firemoth 1.1.7z    ->    Bethesda's Siege at Firemoth 1.1.7z
+Contents\Dungeons\Darkelfguy's The Haunted Tavern of the West Gash (+Anya).7z    ->    Darkelfguy's The Haunted Tavern of the West Gash (+Anya).7z
+Contents\Dungeons\Vality & Midgetalien's The Neverhalls 1.0 and The Forgotten Halls 2.1 (MYM edit).7z    ->    Vality & Midgetalien's The Neverhalls 1.0 and The Forgotten Halls 2.1 (MYM edit).7z
+Contents\Dungeons\jman0war's Abandoned Well at Dagon Fel 2.7z    ->    jman0war's Abandoned Well at Dagon Fel 2.7z
+Contents\Environment\Antares' Armory.7z    ->    Antares' Armory.7z
+Contents\Environment\Barabus' Fireplace 2.7z    ->    Barabus' Fireplace 2.7z
+Contents\Environment\Darknut's Greater Dwemer Ruins Volume 1 (BTB edit).7z    ->    Darknut's Greater Dwemer Ruins Volume 1 (BTB edit).7z
+Contents\Environment\Lendrik's Visible Mournhold Temple.7z    ->    Lendrik's Visible Mournhold Temple.7z
+Contents\Environment\Ragox & Zaldir's More Detailed Places Compilation 8.0.7z    ->    Ragox & Zaldir's More Detailed Places Compilation 8.0.7z
+Contents\Environment\Stuporstar's Leveled Animated Practice Dummy 3.1.7z    ->    Stuporstar's Leveled Animated Practice Dummy 3.1.7z
+Contents\Environment\Tarius' Beds of the Mages Guild.7z    ->    Tarius' Beds of the Mages Guild.7z
+Contents\NPCs\Antares' Ald-Ruhn Game of three cups.7z    ->    Antares' Ald-Ruhn Game of three cups.7z
+Contents\NPCs\Raejak's Healers 1.0.7z    ->    Raejak's Healers 1.0.7z
+Contents\NPCs\Starfire's NPC Additions 1.11 + ProperLadies 1.1.7z    ->    Starfire's NPC Additions 1.11 + ProperLadies 1.1.7z
+Contents\Objects\Fliggerty's Booby Traps.7z    ->    Fliggerty's Booby Traps.7z
+Contents\Objects\Ghostnull & BTB's Area Effect Projectiles 1.1 and PAR 4.0.7z    ->    Ghostnull & BTB's Area Effect Projectiles 1.1 and PAR 4.0.7z
+Contents\Objects\ManaUser's Grave Goods.7z    ->    ManaUser's Grave Goods.7z
+Contents\Objects\Melchior Dahrk's Quorn Resource Integration.7z    ->    Melchior Dahrk's Quorn Resource Integration.7z
+Contents\Objects\Melchior's Staffs of the Daedra 1.57.7z    ->    Melchior's Staffs of the Daedra 1.57.7z
+Contents\Objects\Midgetalien's Armor of the Dead.7z    ->    Midgetalien's Armor of the Dead.7z
+Contents\Objects\farrp's Weapon Compilation 2.0.7z    ->    farrp's Weapon Compilation 2.0.7z
+Contents\Quests\C.J. Devito & LDones's Illuminated Order.7z    ->    C.J. Devito & LDones's Illuminated Order.7z
+Contents\Quests\Danjb's Note to Hrisskar 2.0.7z    ->    Danjb's Note to Hrisskar 2.0.7z
+Contents\Quests\Darkelfguy's A Hermits Request 1.21.7z    ->    Darkelfguy's A Hermits Request 1.21.7z
+Contents\Quests\Darkelfguy's Of Justice and Innocence 1.22.7z    ->    Darkelfguy's Of Justice and Innocence 1.22.7z
+Contents\Quests\Ivza's Blight Bounties 1.01.7z    ->    Ivza's Blight Bounties 1.01.7z
+Contents\Quests\K. Loerke's Of Love and Ignorance.7z    ->    K. Loerke's Of Love and Ignorance.7z
+Contents\Quests\Nevena's Twin Lamps & Slave Hunters 1.5.7z    ->    Nevena's Twin Lamps & Slave Hunters 1.5.7z
+Contents\Quests\PeterBitt's A Strange Plant 1.1.7z    ->    PeterBitt's A Strange Plant 1.1.7z
+Contents\Quests\Reptile's Inseparable Siblings.7z    ->    Reptile's Inseparable Siblings.7z
+Contents\Quests\emma's White Wolf of Lokken Moutain 2.1.7z    ->    emma's White Wolf of Lokken Moutain 2.1.7z
+Gameplay\Balancing\BTB's Game Improvements 14.1 (MYM edit).7z    ->    BTB's Game Improvements 14.1 (MYM edit).7z
+Gameplay\Balancing\Dimitri Mazieres' Dark Brotherhood Armor Replac~Expander-DDBA (BTB Edit).7z    ->    Dimitri Mazieres' Dark Brotherhood Armor Replac~Expander-DDBA (BTB Edit).7z
+Gameplay\Balancing\Fallen's Better Solstheim Creatures 1.2.7z    ->    Fallen's Better Solstheim Creatures 1.2.7z
+Gameplay\Balancing\Gary Noonan & WormGod Elite's Morrowind Advanced 1.82 (BTB edit).7z    ->    Gary Noonan & WormGod Elite's Morrowind Advanced 1.82 (BTB edit).7z
+Gameplay\Balancing\HotFusion's Economy Adjuster 1.1 (BTB edit).7z    ->    HotFusion's Economy Adjuster 1.1 (BTB edit).7z
+Gameplay\Balancing\MYM's Settings 2011-02-17.7z    ->    MYM's Settings 2011-02-17.7z
+Gameplay\Dialogue\Djangos & Adul's Sleepers, Awake! 1.1.7z    ->    Djangos & Adul's Sleepers, Awake! 1.1.7z
+Gameplay\Dialogue\Djangos' Dialogue and Speech.7z    ->    Djangos' Dialogue and Speech.7z
+Gameplay\Dialogue\GlassBoy Nudity Greeting Expansion.7z    ->    GlassBoy Nudity Greeting Expansion.7z
+Gameplay\Dialogue\Gwilym's Enough Does Not Have Enough.7z    ->    Gwilym's Enough Does Not Have Enough.7z
+Gameplay\Dialogue\Illy's Solsteim Rumour Fix.7z    ->    Illy's Solsteim Rumour Fix.7z
+Gameplay\Dialogue\LGNPC (BTB edit).7z    ->    LGNPC (BTB edit).7z
+Gameplay\Dialogue\What Thieves Guild.7z    ->    What Thieves Guild.7z
+Gameplay\Dialogue\Wrye's Less Lore.7z    ->    Wrye's Less Lore.7z
+Gameplay\Handy\Bink's Quick Char 1.2 (BTB edit).7z    ->    Bink's Quick Char 1.2 (BTB edit).7z
+Gameplay\Handy\Fliggerty's Arrow De-nocker 1.1 (MWSE).7z    ->    Fliggerty's Arrow De-nocker 1.1 (MWSE).7z
+Gameplay\Handy\Fliggerty's More Quick-Keys 1.3.7z    ->    Fliggerty's More Quick-Keys 1.3.7z
+Gameplay\Handy\James Fraser's Bones 1.1.7z    ->    James Fraser's Bones 1.1.7z
+Gameplay\Handy\ManaUser's Graphic Herbalism 1.3 & Bloated Caves 1.2.7z    ->    ManaUser's Graphic Herbalism 1.3 & Bloated Caves 1.2.7z
+Gameplay\Handy\Skrawafunda's Graphic Herbalism Extra (Correct UV) 1.0.7z    ->    Skrawafunda's Graphic Herbalism Extra (Correct UV) 1.0.7z
+Gameplay\Handy\abot's Take My Place 1.2.7z    ->    abot's Take My Place 1.2.7z
+Gameplay\Patches\Enderandrew's UMPP Fixes 2.0.7z    ->    Enderandrew's UMPP Fixes 2.0.7z
+Gameplay\Patches\Midgetalien's Bloodmoon Patch 0.5.1.7z    ->    Midgetalien's Bloodmoon Patch 0.5.1.7z
+Gameplay\Patches\hollaajith's Dagoth Ur Fix 1.1.7z    ->    hollaajith's Dagoth Ur Fix 1.1.7z
+Gameplay\Realism\Ashes to Ashes.7z    ->    Ashes to Ashes.7z
+Gameplay\Realism\Fliggerty's Protective Guards 1.3.7z    ->    Fliggerty's Protective Guards 1.3.7z
+Gameplay\Realism\Galsiah's & Co Character Development 1.08.7z    ->    Galsiah's & Co Character Development 1.08.7z
+Gameplay\Realism\Horatio's NPC Enhanced 1.2.7z    ->    Horatio's NPC Enhanced 1.2.7z
+Gameplay\Realism\ManaUser's Improved Gold Weight.7z    ->    ManaUser's Improved Gold Weight.7z
+Gameplay\Realism\Misty Moon's Portable Bedroll 1.1.7z    ->    Misty Moon's Portable Bedroll 1.1.7z
+Gameplay\Realism\NazoX9's Guards.7z    ->    NazoX9's Guards.7z
+Gameplay\Realism\The Puma Man's Passive Healthy Wildlife 2.0.7z    ->    The Puma Man's Passive Healthy Wildlife 2.0.7z
+Gameplay\Realism\Trainwiz' Main Quest Enhancers 1.1.7z    ->    Trainwiz' Main Quest Enhancers 1.1.7z
+Gameplay\Realism\Wrye & co's Living Cities of Vvardenfell 3.13 (MYM edit).7z    ->    Wrye & co's Living Cities of Vvardenfell 3.13 (MYM edit).7z
+Gameplay\Realism\abot's Lava and Steam.7z    ->    abot's Lava and Steam.7z
+Gameplay\Realism\abot's Thunders and Lightnings 1.3.7z    ->    abot's Thunders and Lightnings 1.3.7z
+Gameplay\Realism\vanhikes & makeshiftwings' Service Requirements 1.4.3.7z    ->    vanhikes & makeshiftwings' Service Requirements 1.4.3.7z
+Graphics\Constructions\AOF's Imperial Housing 2.0.7z    ->    AOF's Imperial Housing 2.0.7z
+Graphics\Constructions\AOF's Road Marker Retextured.7z    ->    AOF's Road Marker Retextured.7z
+Graphics\Constructions\Aeven's Dwemeri Dominion.7z    ->    Aeven's Dwemeri Dominion.7z
+Graphics\Constructions\Basswalker & Co's White Suran 2 MDE 1.2.7z    ->    Basswalker & Co's White Suran 2 MDE 1.2.7z
+Graphics\Constructions\Melchior Dahrk's Forge of Hilbongard.7z    ->    Melchior Dahrk's Forge of Hilbongard.7z
+Graphics\Constructions\Tronvillain's Unique Tombs 1.2b.7z    ->    Tronvillain's Unique Tombs 1.2b.7z
+Graphics\Creatures\Catherine's Blighted Animals with Darknuts 512 textures 1.1.7z    ->    Catherine's Blighted Animals with Darknuts 512 textures 1.1.7z
+Graphics\Creatures\Dirnae & co's Animation Compilation 0.32.7z    ->    Dirnae & co's Animation Compilation 0.32.7z
+Graphics\Creatures\Dirnae's Beast Animations.7z    ->    Dirnae's Beast Animations.7z
+Graphics\Creatures\Psy & Plangkye's Better Dieties.7z    ->    Psy & Plangkye's Better Dieties.7z
+Graphics\Creatures\Psychodog Studios' Better Bodies 2.2 Underwear and Westly's Fit Body Textures.7z    ->    Psychodog Studios' Better Bodies 2.2 Underwear and Westly's Fit Body Textures.7z
+Graphics\Creatures\Westly Presents Unique Corprus Stalkers.7z    ->    Westly Presents Unique Corprus Stalkers.7z
+Graphics\Creatures\Westly Presents Unique Winged Twilights.7z    ->    Westly Presents Unique Winged Twilights.7z
+Graphics\Effects\Knef's Explosions.7z    ->    Knef's Explosions.7z
+Graphics\Effects\Piratelord's Morrowind Relighted 1.1.7z    ->    Piratelord's Morrowind Relighted 1.1.7z
+Graphics\Effects\Razofett147's New Blood 1.1 and Walther's Blood Sprite.7z    ->    Razofett147's New Blood 1.1 and Walther's Blood Sprite.7z
+Graphics\Equipment\Alaisiagae's Unique Finery Replacer 3.2.7z    ->    Alaisiagae's Unique Finery Replacer 3.2.7z
+Graphics\Equipment\Darknut's Adamantium Claymore.7z    ->    Darknut's Adamantium Claymore.7z
+Graphics\Equipment\Lexa & Sister's Better Picks'n'Probs Diversity.7z    ->    Lexa & Sister's Better Picks'n'Probs Diversity.7z
+Graphics\Equipment\NioLiv's Robe Replacer.7z    ->    NioLiv's Robe Replacer.7z
+Graphics\Equipment\Plangkye's Dagger of Symmachus 2.0.7z    ->    Plangkye's Dagger of Symmachus 2.0.7z
+Graphics\Equipment\Plangkye's Pluginless No Glow.7z    ->    Plangkye's Pluginless No Glow.7z
+Graphics\Equipment\quorn's Steel Broadsword Fix 1.2 BM.7z    ->    quorn's Steel Broadsword Fix 1.2 BM.7z
+Graphics\Interface\Hrnchamd's Better Dialogue Font 1.1.7z    ->    Hrnchamd's Better Dialogue Font 1.1.7z
+Graphics\Interface\Lelek1980 & TheMinttu's Lovely Loading Screens 1.0.7z    ->    Lelek1980 & TheMinttu's Lovely Loading Screens 1.0.7z
+Graphics\Interface\Lucien Fairfax's Vvardenfell Birthsign Textures.7z    ->    Lucien Fairfax's Vvardenfell Birthsign Textures.7z
+Graphics\Interface\Spewboy's Better Morrowind Menu II.7z    ->    Spewboy's Better Morrowind Menu II.7z
+Graphics\Interface\Vurt's Hires scroll 1.1 (MYM tweaks).7z    ->    Vurt's Hires scroll 1.1 (MYM tweaks).7z
+Graphics\Nature\MGE Water Texture.7z    ->    MGE Water Texture.7z
+Graphics\Nature\SWG Skies 4.0.7z    ->    SWG Skies 4.0.7z
+Graphics\Nature\Slartibartfast's Texture Fix 2.0.7z    ->    Slartibartfast's Texture Fix 2.0.7z
+Graphics\Nature\Vality's Bitter Coast Trees and Addon 4.0 (BTB edit).7z    ->    Vality's Bitter Coast Trees and Addon 4.0 (BTB edit).7z
+Graphics\Nature\Vurt's Grazelands Trees II_1.1.7z    ->    Vurt's Grazelands Trees II_1.1.7z
+Graphics\Nature\Vurt's Mournhold Trees.7z    ->    Vurt's Mournhold Trees.7z
+Graphics\Objects\Daduke's Key Replacer 1.4.7z    ->    Daduke's Key Replacer 1.4.7z
+Graphics\Objects\Daleth's Book Jackets MW, TB, BM (+Kaucukovnik).7z    ->    Daleth's Book Jackets MW, TB, BM (+Kaucukovnik).7z
+Graphics\Objects\GhostNull's Silverware Enhancer 2.0.7z    ->    GhostNull's Silverware Enhancer 2.0.7z
+Graphics\Objects\Illiotibial's Smoother Potions.7z    ->    Illiotibial's Smoother Potions.7z
+Graphics\Objects\Misty Moon's Dwemer Books.7z    ->    Misty Moon's Dwemer Books.7z
+Graphics\Objects\Nethellus' Better Bodies Slave Bracer 1.01.7z    ->    Nethellus' Better Bodies Slave Bracer 1.01.7z
+Graphics\Objects\Qarl's Flask Replacer.7z    ->    Qarl's Flask Replacer.7z
+Graphics\Objects\The Iron Chicken's Dwemer Plans & Schematics Replacer 512.7z    ->    The Iron Chicken's Dwemer Plans & Schematics Replacer 512.7z
+Graphics\Statics\AOF's RoadMarker.7z    ->    AOF's RoadMarker.7z
+Graphics\Statics\Aeven's Set in Stone.7z    ->    Aeven's Set in Stone.7z
+Graphics\Statics\Djangos' Thy Spirits Thy Lords.7z    ->    Djangos' Thy Spirits Thy Lords.7z
+Graphics\Statics\Melchior Dahrk's Paper Lanterns Replacer 5.0.7z    ->    Melchior Dahrk's Paper Lanterns Replacer 5.0.7z
+Graphics\Statics\Peterbitt's Signposts Retextured 1.1.7z    ->    Peterbitt's Signposts Retextured 1.1.7z
+Graphics\Creatures\Motoki & co's Better Heads 2.0.7z    ->    0010-Motoki & co's Better Heads 2.0.7z
+Contents\NPCs\emma's Children of Morrowind.7z    ->    0020-emma's Children of Morrowind.7z
+Contents\Quests\Dagoth Agahnim's Sobitur Facility 5.2.1.7z    ->    0030-Dagoth Agahnim's Sobitur Facility 5.2.1.7z
+Graphics\Equipment\Tealpanda's Unique Jewelry and Accessories 2.71.7z    ->    0040-Tealpanda's Unique Jewelry and Accessories 2.71.7z
+Graphics\Packs\Morrowind Visual Pack 3.0RC1.7z    ->    0050-Morrowind Visual Pack 3.0RC1.7z
+Graphics\Packs\Connary's Textures Pack Full.7z    ->    0060-Connary's Textures Pack Full.7z
+Gameplay\Patches\Morrowind Patch Project 1.6.5 Beta (BTB Edit).7z    ->    0070-Morrowind Patch Project 1.6.5 Beta (BTB Edit).7z
+Graphics\Interface\Alaisiagae's Ultimate Icon Replacer.7z    ->    0080-Alaisiagae's Ultimate Icon Replacer.7z
+Contents\Creatures\abot's Water Life 1.21.7z    ->    0090-abot's Water Life 1.21.7z
+Graphics\Nature\Lougian's Caverns Bump Mapped 1.3.7z    ->    0100-Lougian's Caverns Bump Mapped 1.3.7z
+Contents\Creatures\Neoptolemus' Minions of House Dagoth 1.1.7z    ->    0110-Neoptolemus' Minions of House Dagoth 1.1.7z
+Graphics\Equipment\Darknut's Armor Textures Divine Domina 512.7z    ->    0120-Darknut's Armor Textures Divine Domina 512.7z
+Contents\Creatures\Neoptolemus' The Undead 4.0.7z    ->    0130-Neoptolemus' The Undead 4.0.7z
+Graphics\Creatures\Darknut's Creature Textures 512.7z    ->    0140-Darknut's Creature Textures 512.7z
+Graphics\Nature\Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z    ->    0150-Slartibartfast's Bloodmoon Landscape Overhaul 1.1.7z
+Graphics\Statics\Papill6n's Various Graphics Things 1.2 (MYM'sel).7z    ->    0160-Papill6n's Various Graphics Things 1.2 (MYM'sel).7z
+Graphics\Statics\Slartibartfast's Mesh Fix 1.2.7z    ->    0170-Slartibartfast's Mesh Fix 1.2.7z
+Graphics\Nature\Lougian's Bloodmoon Rocks Bump Mapped 1.0.7z    ->    0180-Lougian's Bloodmoon Rocks Bump Mapped 1.0.7z
+Graphics\Nature\Taddeus' On The Rocks.7z    ->    0190-Taddeus' On The Rocks.7z
+Graphics\Equipment\Darknut's Little Weapons Mod 512.7z    ->    0200-Darknut's Little Weapons Mod 512.7z
+Graphics\Equipment\Darknut's Armor Textures 512.7z    ->    0210-Darknut's Armor Textures 512.7z
+Graphics\Equipment\Psychodog Studios & co's Better Clothes 1.1 (+Darknut+Plangkye+BTB).7z    ->    0220-Psychodog Studios & co's Better Clothes 1.1 (+Darknut+Plangkye+BTB).7z
+Graphics\Constructions\AOF's Vivec Velothi Retextured 3.2 & Biont's Vivec Bump Maps 1.0.7z    ->    0230-AOF's Vivec Velothi Retextured 3.2 & Biont's Vivec Bump Maps 1.0.7z
+Contents\Objects\Danae's Hold it 1.9.7z    ->    0240-Danae's Hold it 1.9.7z
+Contents\Quests\Kalamestari_69's Welcome to the Arena 6.6!.7z    ->    0250-Kalamestari_69's Welcome to the Arena 6.6!.7z
+Graphics\Objects\Illy's Dirty Books.7z    ->    0260-Illy's Dirty Books.7z
+Contents\Creatures\abot's Where Are All Birds Going 1.17.7z    ->    0270-abot's Where Are All Birds Going 1.17.7z
+Graphics\Constructions\Lougian's Redoran Bump Mapped 2.0.7z    ->    0280-Lougian's Redoran Bump Mapped 2.0.7z
+Graphics\Constructions\AOF's Imperial Housing 2.0 & Elmer's Bump Mapped 1.2.7z    ->    0290-AOF's Imperial Housing 2.0 & Elmer's Bump Mapped 1.2.7z
+Graphics\Constructions\Max & co's Windows Glow (+WindowLights+abot+Gemini).7z    ->    0300-Max & co's Windows Glow (+WindowLights+abot+Gemini).7z
+Graphics\Objects\Qarl's Misc Items Replacer.7z    ->    0310-Qarl's Misc Items Replacer.7z
+Graphics\Objects\Armed Defender's Mesh Improvements 1.7.1.7z    ->    0320-Armed Defender's Mesh Improvements 1.7.1.7z
+Graphics\Constructions\AOF's Shacks and Docks.7z    ->    0330-AOF's Shacks and Docks.7z
+Graphics\Constructions\Lougian's Hlaalu Bump mapped 2.0.7z    ->    0340-Lougian's Hlaalu Bump mapped 2.0.7z
+Graphics\Nature\Lougian's Bloodmoon Caverns Bump Mapped 1.0.7z    ->    0350-Lougian's Bloodmoon Caverns Bump Mapped 1.0.7z
+Graphics\Nature\Vurt's Groundcover 2.3a.7z    ->    0360-Vurt's Groundcover 2.3a.7z
+Contents\NPCs\Antares' Animated Morrowind I and II.7z    ->    0370-Antares' Animated Morrowind I and II.7z
+Contents\Dungeons\Antares' Dungeon & Diamond.7z    ->    0380-Antares' Dungeon & Diamond.7z
+Graphics\Constructions\Lougian's Daedric Ruins Bump Mapped 1.0.7z    ->    0390-Lougian's Daedric Ruins Bump Mapped 1.0.7z
+Graphics\Equipment\Baldurian's Transparent Glass Equipment.7z    ->    0400-Baldurian's Transparent Glass Equipment.7z
+Graphics\Nature\Nich's correctUV Diverse Ore Veins.7z    ->    0410-Nich's correctUV Diverse Ore Veins.7z
+Graphics\Constructions\Biont's Telvanni Bump Maps 1.1.7z    ->    0420-Biont's Telvanni Bump Maps 1.1.7z
+Graphics\Effects\FIM's Better Spell Effects.7z    ->    0430-FIM's Better Spell Effects.7z
+Graphics\Statics\Bart Notelaers' Unique 1.11 and Linora's Refined 2.0 Banners and Signs.7z    ->    0440-Bart Notelaers' Unique 1.11 and Linora's Refined 2.0 Banners and Signs.7z
+Graphics\Nature\Vurt's Leafy West Gash II 2.0a.7z    ->    0450-Vurt's Leafy West Gash II 2.0a.7z
+Graphics\Nature\Lougian's Landscape retexture 1k 2.0.7z    ->    0460-Lougian's Landscape retexture 1k 2.0.7z
+Graphics\Nature\Vality's Ice Caverns Enhanced.7z    ->    0470-Vality's Ice Caverns Enhanced.7z
+Graphics\Creatures\Neoptolemus' Unique Creatures.7z    ->    0480-Neoptolemus' Unique Creatures.7z
+Graphics\Statics\Nangsid's Taps and Rugs (MYM'sel).7z    ->    0490-Nangsid's Taps and Rugs (MYM'sel).7z
+Graphics\Objects\Alaisiagae's Soulgem Ingredient Retexture 3.0.7z    ->    0500-Alaisiagae's Soulgem Ingredient Retexture 3.0.7z
+Graphics\Interface\PeterBitt's Modern User Interface 1.0.7z    ->    0510-PeterBitt's Modern User Interface 1.0.7z
+Graphics\MGE XE Data 0.9.10.7z    ->    0520-MGE XE Data 0.9.10.7z
+Graphics\Creatures\tronvillain & co's Better Skulls 1.4b.7z    ->    0530-tronvillain & co's Better Skulls 1.4b.7z
+Graphics\Statics\Tarius' Better Meshes plus Optimization 1.11.7z    ->    0540-Tarius' Better Meshes plus Optimization 1.11.7z
+Graphics\Equipment\Psy's Iron and Oriental Mesh Improvements.7z    ->    0550-Psy's Iron and Oriental Mesh Improvements.7z
+Graphics\Creatures\Liztail's Beast Bodies 3.3 and Shadow 2.0.7z    ->    0560-Liztail's Beast Bodies 3.3 and Shadow 2.0.7z
+Graphics\Nature\Vurt's Solstheim Tree Replacer II 1.03.7z    ->    0570-Vurt's Solstheim Tree Replacer II 1.03.7z
+Contents\Quests\emma's Prophecy Of The Lost Heir 1.2.7z    ->    0580-emma's Prophecy Of The Lost Heir 1.2.7z
+Graphics\Equipment\Yar-Yulme's Dwemeri Gifts 1.2.7z    ->    0590-Yar-Yulme's Dwemeri Gifts 1.2.7z
+Graphics\Objects\Earth Wyrm's Souly Soulgems 1.1.1.7z    ->    0600-Earth Wyrm's Souly Soulgems 1.1.1.7z
+Graphics\Statics\Djangos' Rugs and Tapestries 1.3 (MYM'sel).7z    ->    0610-Djangos' Rugs and Tapestries 1.3 (MYM'sel).7z
+Contents\Creatures\Antares' Undead Creatures.7z    ->    0620-Antares' Undead Creatures.7z
+Graphics\Constructions\Colt17's HD Architecture Meshes.7z    ->    0630-Colt17's HD Architecture Meshes.7z
+Graphics\Objects\Qarl's Bottle Replacer.7z    ->    0640-Qarl's Bottle Replacer.7z
+Graphics\Nature\Vurt's AI II 1.01 and Vality's 2.0 AI.7z    ->    0650-Vurt's AI II 1.01 and Vality's 2.0 AI.7z
+Graphics\Creatures\Petethegoat's Better Heads Male Dunmer Texture Fix.7z    ->    0660-Petethegoat's Better Heads Male Dunmer Texture Fix.7z
+Graphics\Effects\Apel's Fire Retexture 2.0.7z    ->    0670-Apel's Fire Retexture 2.0.7z
+Graphics\Nature\Slartibartfast's Underwater Static Replacer.7z    ->    0680-Slartibartfast's Underwater Static Replacer.7z
+Graphics\Creatures\tronvillain's Better Scamps 1.0b.7z    ->    0690-tronvillain's Better Scamps 1.0b.7z
+Graphics\Nature\Bloodinfested's BC Plant life.7z    ->    0700-Bloodinfested's BC Plant life.7z
+Contents\Quests\Bethesda's Master Index & DeusXMachina's Journalfix.7z    ->    0710-Bethesda's Master Index & DeusXMachina's Journalfix.7z
+Graphics\Constructions\Alaisiagae's Propylon Pillar Retexture 1.1.7z    ->    0720-Alaisiagae's Propylon Pillar Retexture 1.1.7z
+Graphics\Statics\Slartibartfast's Smoother Meshes.7z    ->    0730-Slartibartfast's Smoother Meshes.7z
+Graphics\Constructions\AOF's Hlaalu Textures.7z    ->    0740-AOF's Hlaalu Textures.7z
+Graphics\Creatures\3vill33t's Ogrim Retex.7z    ->    0750-3vill33t's Ogrim Retex.7z
+Graphics\Nature\Lougian's Waterfalls Retexture Bumped Mapped 1.2.7z    ->    0760-Lougian's Waterfalls Retexture Bumped Mapped 1.2.7z
+Graphics\Nature\Vurt's Lava and Smoke 1.1.7z    ->    0770-Vurt's Lava and Smoke 1.1.7z
+Graphics\Objects\Painkiller Rider's Shiny Septims.7z    ->    0780-Painkiller Rider's Shiny Septims.7z
+Graphics\Nature\AOF's Waterfalls 1.1.7z    ->    0790-AOF's Waterfalls 1.1.7z
+Graphics\Statics\Alaisiagae's Sail Cloth Retexture Normal.7z    ->    0800-Alaisiagae's Sail Cloth Retexture Normal.7z
+Graphics\Statics\AOF's Containers 1024.7z    ->    0810-AOF's Containers 1024.7z
+Contents\Environment\Slartibartfast's Poorly Placed Object Fix 1.2.7z    ->    0820-Slartibartfast's Poorly Placed Object Fix 1.2.7z
+Graphics\Interface\Marbred's Magic Icon Border - Alt Beth Swirl.7z    ->    0830-Marbred's Magic Icon Border - Alt Beth Swirl.7z
+Graphics\Nature\Baldurian's Scum Texture and Mesh Replacer.7z    ->    0840-Baldurian's Scum Texture and Mesh Replacer.7z
+Graphics\Statics\Tarius' Better Kegstands 1.1.7z    ->    0850-Tarius' Better Kegstands 1.1.7z
+Graphics\Objects\Petethegoat's Moon Sugar Replacer.7z    ->    0860-Petethegoat's Moon Sugar Replacer.7z
+Graphics\Equipment\Alaisiagae's Dwemer Crossbow Replacer.7z    ->    0870-Alaisiagae's Dwemer Crossbow Replacer.7z
+Graphics\Constructions\Saint Jiub's Better Plaza Statues.7z    ->    0880-Saint Jiub's Better Plaza Statues.7z
+Graphics\Interface\Keazen's Journal Books.7z    ->    0890-Keazen's Journal Books.7z
+Graphics\Constructions\Saint Jiub's Lore-Friendly Ghostfence Texture.7z    ->    0900-Saint Jiub's Lore-Friendly Ghostfence Texture.7z
