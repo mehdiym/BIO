@@ -122,27 +122,31 @@ class ModAnalysis(object):
             if size == '0':
                 continue
             mtime = get_next_field(arcout, "Modified", True)
-            count += 1
             tsize += int(size)
             fhash = get_next_field(arcout, "CRC", True)
-            self.add_file(filename, size, mtime, fhash, arcfile_node)
+            if self.add_file(filename, size, mtime, fhash, arcfile_node):
+                count +=1
 
     def add_file(self, datafile, size, mtime, fhash, mod):
         """ Adds a data file to the dictionary.
         Values are dictionaries: hash -> (size, archive file name) """
         first_mod_dir = datafile.partition(os.sep)[0]
-        if first_mod_dir not in self.cfg.path['excluded_arc_dirs']:
-            if datafile not in self.datafile_list:
-                self.datafile_list[datafile] = {}
-            versions = self.datafile_list[datafile]
-            if fhash not in versions:
-                versions[fhash] = (mod, int(size), mtime)
+        if first_mod_dir in self.cfg.path['excluded_arc_dirs']:
+            return False
 
-            #extension = os.path.splitext(datafile)[1][1:]
-            #if extension.lower() not in self.cfg.path['expected_exts']:
-                #if mod not in self.suspicious_files:
-                    #self.suspicious_files[mod] = []
-                #self.suspicious_files[mod].append(datafile)
+        if datafile not in self.datafile_list:
+            self.datafile_list[datafile] = {}
+        versions = self.datafile_list[datafile]
+        if fhash not in versions:
+            versions[fhash] = (mod, int(size), mtime)
+
+        #extension = os.path.splitext(datafile)[1][1:]
+        #if extension.lower() not in self.cfg.path['expected_exts']:
+            #if mod not in self.suspicious_files:
+                #self.suspicious_files[mod] = []
+            #self.suspicious_files[mod].append(datafile)
+
+        return True
 
     def overlapping_datafiles_to_graph(self):
         """ Organizes overlapping archive data files into
@@ -351,6 +355,7 @@ class ModAnalysis(object):
         self.mod_graph.set_edge_props()
         self.mod_graph.set_directions()
         self.mod_graph.break_cycles()
+        self.mod_graph.count_mod_overlapped_files()
         self.ordered_overlap_mod = self.mod_graph.tsort_graph()
         self.mod_graph.restore_cycles()
         self.set_free_mod()

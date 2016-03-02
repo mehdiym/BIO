@@ -66,6 +66,8 @@ class _ModProps(object):
         self.file_count = file_count
         self.install_index = None
 
+    def set_overlapped_count(self, file_count):
+        self.overlapped_count = file_count
 
 class _ModEdge(object):
     """ Properties of an edge between 2 modules in the graph.
@@ -129,6 +131,9 @@ class ModGraph(object):
 
     def add_node(self, mod, file_count, size):
         self.mod_nodes[mod] = _ModProps(file_count, size)
+
+    def set_overlapped_count(self, mod, file_count):
+        self.mod_nodes[mod].set_overlapped_count(file_count)
 
     def node_count(self):
         return len(self.mod_nodes)
@@ -388,6 +393,24 @@ class ModGraph(object):
         for edge in self.FAS:
             self.add_edge(*edge)
 
+    def count_mod_overlapped_files(self):
+        """ Count how many files of a mod are overlapped. """
+        mod_overlapped_files = dict()
+
+        for mod1 in sorted(self.mod_edges.iterkeys()):
+            if mod1 not in mod_overlapped_files:
+                mod_overlapped_files[mod1] = set()
+            for mod2 in sorted(self.mod_edges[mod1].iterkeys()):
+                edge = self.mod_edges[mod1][mod2]
+                if edge.removed:
+                    continue
+                for datafile in sorted(edge.datafiles.iterkeys()):
+                    if mod2 not in mod_overlapped_files:
+                        mod_overlapped_files[mod2] = set()
+                    mod_overlapped_files[mod2].add(datafile)
+        for mod in mod_overlapped_files:
+            self.set_overlapped_count(mod, len(mod_overlapped_files[mod]))
+
     def __str__(self):
 
         def str_size(size):
@@ -405,6 +428,7 @@ class ModGraph(object):
         col_fc_ratio = 8 # max: xxx.xx
         col_score = 9 # max: xxxx.xx
         col_fc = 6 # max: xxxx
+        col_ofc = 6 # max: xxxx
         col_size = 6 # max: xxxX
         tab = 4
         stab = " " * tab
@@ -421,7 +445,7 @@ class ModGraph(object):
                     tab + len(max_target_mod)))
         col_file = mod_name_max_length
         all_col = (col_file + col_fs1 + col_fs2 + col_ns + col_nt +
-                col_fc_ratio + col_score + col_fc + col_size)
+                col_fc_ratio + col_score + col_fc + col_ofc + col_size)
         sep = '%s\n' % ('-' * all_col)
 
         buff = ["*** Graph of Mod Install Precedence ***\n\n",
@@ -442,6 +466,7 @@ class ModGraph(object):
                 "%sScore = NS * FCR\n" % stab,
                 "Values based on the whole mod:\n",
                 "%sFC = File Count\n" % stab,
+                "%sOFC = Overlapped File Count\n" % stab,
                 "%sSize = Total (uncompressed) Size of the mod\n\n" % stab]
         titles = ''.join([
             sep,
@@ -453,6 +478,7 @@ class ModGraph(object):
             "FCR".rjust(col_fc_ratio),
             "Score".rjust(col_score),
             "FC".rjust(col_fc),
+            "OFC".rjust(col_ofc),
             "Size".rjust(col_size),
             "\n%s" % sep])
         buff.append(titles)
@@ -462,10 +488,11 @@ class ModGraph(object):
             if lines > 40:
                 buff.append(titles)
                 lines = 0
-            buff.append('%s%s%s\n' % (
+            buff.append('%s%s%s%s\n' % (
                 mod1_name.ljust(col_file + col_fs1 + col_fs2 + col_ns +
                     col_nt + col_fc_ratio + col_score),
                 str(self.mod_nodes[mod1].file_count).rjust(col_fc),
+                str(self.mod_nodes[mod1].overlapped_count).rjust(col_ofc),
                 str_size(self.mod_nodes[mod1].size).rjust(col_size)))
             lines += 1
             for mod2 in sorted(self.mod_edges[mod1].iterkeys()):
@@ -473,7 +500,7 @@ class ModGraph(object):
                 edge = self.mod_edges[mod1][mod2]
                 if edge.removed:
                     buff.append("(discarded overlap:)\n")
-                buff.append('%s%s%s%s%s%s%s%s\n' % (
+                buff.append('%s%s%s%s%s%s%s%s%s\n' % (
                     stab,
                     mod2_name.ljust(col_file + col_fs1 + col_fs2 - tab),
                     ("%.2f" % round(edge.norm_size_ratio, 2)).rjust(col_ns),
@@ -482,6 +509,7 @@ class ModGraph(object):
                                     2)).rjust(col_fc_ratio),
                     ("%.2f" % round(edge.score, 2)).rjust(col_score),
                     str(self.mod_nodes[mod2].file_count).rjust(col_fc),
+                    str(self.mod_nodes[mod2].overlapped_count).rjust(col_ofc),
                     str_size(self.mod_nodes[mod2].size).rjust(col_size)))
                 lines += 1
                 for datafile in sorted(edge.datafiles.iterkeys())[:20]:
