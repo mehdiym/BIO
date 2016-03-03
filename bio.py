@@ -140,11 +140,11 @@ class ModAnalysis(object):
         if fhash not in versions:
             versions[fhash] = (mod, int(size), mtime)
 
-        #extension = os.path.splitext(datafile)[1][1:]
-        #if extension.lower() not in self.cfg.path['expected_exts']:
-            #if mod not in self.suspicious_files:
-                #self.suspicious_files[mod] = []
-            #self.suspicious_files[mod].append(datafile)
+        extension = os.path.splitext(datafile)[1][1:]
+        if extension.lower() not in self.cfg.path['expected_exts']:
+            if mod not in self.suspicious_files:
+                self.suspicious_files[mod] = []
+            self.suspicious_files[mod].append(datafile)
 
         return True
 

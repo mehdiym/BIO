@@ -394,20 +394,19 @@ class ModGraph(object):
             self.add_edge(*edge)
 
     def count_mod_overlapped_files(self):
-        """ Count how many files of a mod are overlapped. """
+        """ Count how many files of a mod are overlapped by other mods. """
         mod_overlapped_files = dict()
+        for mod in self.mod_nodes.iterkeys():
+            mod_overlapped_files[mod] = set()
 
         for mod1 in sorted(self.mod_edges.iterkeys()):
-            if mod1 not in mod_overlapped_files:
-                mod_overlapped_files[mod1] = set()
             for mod2 in sorted(self.mod_edges[mod1].iterkeys()):
                 edge = self.mod_edges[mod1][mod2]
                 if edge.removed:
                     continue
                 for datafile in sorted(edge.datafiles.iterkeys()):
-                    if mod2 not in mod_overlapped_files:
-                        mod_overlapped_files[mod2] = set()
                     mod_overlapped_files[mod2].add(datafile)
+
         for mod in mod_overlapped_files:
             self.set_overlapped_count(mod, len(mod_overlapped_files[mod]))
 
