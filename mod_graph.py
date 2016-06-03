@@ -433,11 +433,11 @@ class ModGraph(object):
         stab = " " * tab
 
         def real_len(mod):
-            return len(self.cfg.clean_mod_name(mod))
+            return len(self.cfg.clean_mod_num_prefix(mod))
 
-        max_source_mod = self.cfg.clean_mod_name(
+        max_source_mod = self.cfg.clean_mod_num_prefix(
                 max(self.mod_edges, key=real_len))
-        max_target_mod = self.cfg.clean_mod_name(
+        max_target_mod = self.cfg.clean_mod_num_prefix(
                 max(self.get_outgoing_nodes(), key=real_len))
         mod_name_max_length = (
                 max(len(max_source_mod),
@@ -483,7 +483,7 @@ class ModGraph(object):
         buff.append(titles)
         lines = 0
         for mod1 in sorted(self.mod_edges.iterkeys()):
-            mod1_name = self.cfg.clean_mod_name(mod1)
+            mod1_name = self.cfg.clean_mod_num_prefix(mod1)
             if lines > 40:
                 buff.append(titles)
                 lines = 0
@@ -495,7 +495,7 @@ class ModGraph(object):
                 str_size(self.mod_nodes[mod1].size).rjust(col_size)))
             lines += 1
             for mod2 in sorted(self.mod_edges[mod1].iterkeys()):
-                mod2_name = self.cfg.clean_mod_name(mod2)
+                mod2_name = self.cfg.clean_mod_num_prefix(mod2)
                 edge = self.mod_edges[mod1][mod2]
                 if edge.removed:
                     buff.append("(discarded overlap:)\n")

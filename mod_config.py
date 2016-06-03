@@ -66,7 +66,7 @@ class ModConfig(object):
         if display:
             print msg
 
-    def clean_mod_name(self, mod):
+    def clean_mod_num_prefix(self, mod):
         base_name = os.path.basename(mod)
         # If the module already has a prefix, then remove it
         return re.sub("^\d+[ -_]", "", base_name)

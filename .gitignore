@@ -1,3 +1,4 @@
 bin
 etc
 7z.*
+*.pyc

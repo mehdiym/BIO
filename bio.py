@@ -183,14 +183,13 @@ class ModAnalysis(object):
 
     def predict_disk_operations(self):
         for mod in sorted(self.free_mod):
-            clean_name = self.cfg.clean_mod_name(mod)
+            clean_name = self.cfg.clean_mod_num_prefix(mod)
             new_path = clean_name
             old_path = mod
-            if old_path != new_path:
-                self.disk_operations.append((old_path, new_path))
+            self.disk_operations.append((old_path, new_path))
 
         for i, mod in enumerate(self.ordered_overlap_mod):
-            clean_name = self.cfg.clean_mod_name(mod)
+            clean_name = self.cfg.clean_mod_num_prefix(mod)
             new_path = "%03d0-%s" % (
                     i + 1,
                     clean_name)
