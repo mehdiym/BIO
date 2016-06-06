@@ -181,29 +181,30 @@ class ModAnalysis(object):
         self.free_mod = [mod for mod in self.mod_list
                          if mod not in self.ordered_overlap_mod]
 
-    def predict_disk_operations(self):
+    def prepare_disk_operations(self):
         for mod in sorted(self.free_mod):
             clean_name = self.cfg.clean_mod_num_prefix(mod)
-            new_path = clean_name
-            old_path = mod
-            self.disk_operations.append((old_path, new_path))
+            new_name = clean_name
+            old_name = mod
+            if not self.cfg.rename or old_name != new_name:
+                self.disk_operations.append((old_name, new_name))
 
         for i, mod in enumerate(self.ordered_overlap_mod):
             clean_name = self.cfg.clean_mod_num_prefix(mod)
-            new_path = "%03d0-%s" % (
+            new_name = "%03d0-%s" % (
                     i + 1,
                     clean_name)
-            old_path = mod
-            if old_path == new_path:
-                self.cfg.log("No renaming needed for mod: %s" % old_path, False)
+            old_name = mod
+            if self.cfg.rename and old_name == new_name:
+                self.cfg.log("No renaming needed for mod: %s" % old_name, False)
             else:
-                self.disk_operations.append((old_path, new_path))
+                self.disk_operations.append((old_name, new_name))
 
         self.cfg.log("Now dealing with non overlapping mods.", False)
 
         tgt_dir = self.cfg.path['tgt_dir']
-        for old_path, new_path in self.disk_operations:
-            tgt = "%s%s" % (tgt_dir, new_path)
+        for old_name, new_name in self.disk_operations:
+            tgt = "%s%s" % (tgt_dir, new_name)
             if os.path.exists(tgt):
                 self.overwritten_mods.append(tgt)
 
@@ -243,8 +244,8 @@ class ModAnalysis(object):
                         % (t, src_dir, t, t, tgt_dir))
             buff.append('as follow:\n\n')
 
-            for old_path, new_path in self.disk_operations:
-                buff.append('%s%s->%s%s\n' % (old_path, t, t, new_path))
+            for old_name, new_name in self.disk_operations:
+                buff.append('%s%s->%s%s\n' % (old_name, t, t, new_name))
 
             disk_operations.write(''.join(buff))
 
@@ -310,11 +311,11 @@ class ModAnalysis(object):
         tgt_dir = self.cfg.path['tgt_dir']
         src_dir = self.cfg.path['src_dir']
 
-        for old_path, new_path in self.disk_operations:
-            src = "%s%s" % (src_dir, old_path)
-            tgt = "%s%s" % (tgt_dir, new_path)
+        for old_name, new_name in self.disk_operations:
+            src = "%s%s" % (src_dir, old_name)
+            tgt = "%s%s" % (tgt_dir, new_name)
             if src == tgt:
-                self.cfg.log("No renaming needed for mod: %s" % old_path, False)
+                self.cfg.log("No renaming needed for mod: %s" % old_name, False)
             else:
                 if self.cfg.rename:
                     shutil.move(src, tgt)
@@ -358,7 +359,7 @@ class ModAnalysis(object):
         self.ordered_overlap_mod = self.mod_graph.tsort_graph()
         self.mod_graph.restore_cycles()
         self.set_free_mod()
-        self.predict_disk_operations()
+        self.prepare_disk_operations()
         self.write_info_files()
 
         self.cfg.log("\t- Process time: %.2fs" % (time.time() - tstart))
