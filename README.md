@@ -1,7 +1,7 @@
 Morrowind Better Install Order
 ==============================
 
-* Version: 0.1
+* Version: 0.2
 * Copyright 2015 Mehdi Yousfi-Monod
 * License: GPL v3 (see the file COPYING)
 

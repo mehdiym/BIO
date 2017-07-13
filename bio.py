@@ -3,7 +3,7 @@
 
 # Copyright 2015 Mehdi Yousfi-Monod <mehdi.yousfi@gmail.com>
 #
-# This file is part of BIO (Morrowind Objective Module Install Order).
+# This file is part of BIO (Morrowind Better Install Order).
 #
 #    BIO is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -328,7 +328,7 @@ class ModAnalysis(object):
         tstart = time.time()
         self.cfg = ModConfig(ini_file)
 
-        self.cfg.log("\nObjective Install Order, run on %s" % time.ctime())
+        self.cfg.log("\nBetter Install Order, run on %s" % time.ctime())
 
         self.mod_graph = ModGraph(self.cfg)
 
