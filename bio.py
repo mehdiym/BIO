@@ -216,7 +216,7 @@ class ModAnalysis(object):
                     buff = ['%s :\n' % mod]
                     for datafile in self.suspicious_files[mod]:
                         buff.append('\t%s\n' % datafile)
-                        suspicious.write(''.join(buff))
+                    suspicious.write(''.join(buff))
 
         with open('%s' % self.cfg.path['disk_operations'],
                 'w') as disk_operations:
