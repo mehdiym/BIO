@@ -24,6 +24,7 @@ import shlex
 import subprocess
 import time
 import math
+import sys
 from xml.sax.saxutils import escape
 
 __all__ = ["ModGraph", "ModGraphError"]
@@ -207,7 +208,8 @@ class ModGraph(object):
                 # The size and mtime factors are now applied a
                 # nth root as they have been multiplied n times.
 
-                size_ratio = norm_size_ratio ** (1.0 / len(datafiles))
+                # 'min' to prevent 'inf' values
+                size_ratio = min(sys.float_info.max, norm_size_ratio) ** (1.0 / len(datafiles))
                 edge.norm_size_ratio = size_ratio
 
                 mtime_ratio = norm_mtime_ratio ** (1.0 / len(datafiles))
