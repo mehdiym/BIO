@@ -200,7 +200,8 @@ class ModGraph(object):
                 for file_props in datafiles:
                     # Average size ratio
                     sizes = datafiles[file_props].sizes
-                    norm_size_ratio *= float(sizes[0]) / sizes[1]
+                    # SQRT to reduce the risks of 'inf' values
+                    norm_size_ratio *= (float(sizes[0]) / sizes[1]) ** 0.5
                     # Average modification time ratio
                     mtimes = datafiles[file_props].mtimes
                     norm_mtime_ratio *= float(mtimes[0]) / mtimes[1]
@@ -267,6 +268,9 @@ class ModGraph(object):
                 # mod precedence mod1 -> mod2
                 if ((score < 1 or force == -1) and force != 1):
                     self.del_edge(mod1, mod2)
+                    # May happen on size ratio miscalculation when numbers go beyond max float value
+                    if mod2 not in self.mod_edges or mod1 not in self.mod_edges[mod2]:
+                        print 'Warning: Overlapping lost between ' + mod1.split('/')[-1] + ' and ' + mod2.split('/')[-1]
                 else:
                     self.mod_edges[mod1][mod2].score = score
 
